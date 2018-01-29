@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic homepage of Florian Eisele on Academic homepage of Florian Eisele</title>
+    <link>/</link>
+    <description>Recent content in Academic homepage of Florian Eisele on Academic homepage of Florian Eisele</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 24 Oct 2017 00:00:00 +0100</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Counterexample to the First Zassenhaus Conjecture</title>
+      <link>/publication/zassenhaus_counterx/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/zassenhaus_counterx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A reduction theorem for $\tau$-rigid modules</title>
+      <link>/publication/reuctiontautilting/</link>
+      <pubDate>Mon, 14 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/reuctiontautilting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Tate duality and a projective scalar property for symmetric algebras</title>
+      <link>/publication/egkl/</link>
+      <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/egkl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blocks with a generalized quaternion defect group and three simple modules over a 2-adic ring</title>
+      <link>/publication/quaternion/</link>
+      <pubDate>Wed, 15 Jun 2016 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/quaternion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Describing units of integral group rings up to commensurability</title>
+      <link>/publication/units_commens/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/units_commens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The $p$-adic group ring of ${\rm SL}_2(p^f)$</title>
+      <link>/publication/sl2pf/</link>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/sl2pf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basic Orders for Defect Two Blocks of $\mathbb Z_p\Sigma_n$</title>
+      <link>/publication/defecttwosn/</link>
+      <pubDate>Thu, 13 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/defecttwosn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the IYB-property in some solvable groups</title>
+      <link>/publication/iyb/</link>
+      <pubDate>Thu, 03 Oct 2013 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/iyb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>$p$-Adic lifting problems and derived equivalences</title>
+      <link>/publication/lifting/</link>
+      <pubDate>Sun, 15 Apr 2012 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/lifting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
