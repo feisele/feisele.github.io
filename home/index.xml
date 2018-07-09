@@ -18,7 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>About me&amp;hellip; Since October 2015 I am a post-doctoral researcher working in the representation theory group at City, University of London. I previously held a position at Vrije Universiteit Brussel in Belgium. I completed my PhD on &amp;ldquo;Group rings over the p-adic integers&amp;rdquo; at RWTH Aachen University in 2012. An up-to-date academic CV is available here.</description>
+      <description>About me Since October 2015 I am a post-doctoral researcher working in the representation theory group at City, University of London. I previously held a position at Vrije Universiteit Brussel in Belgium. I completed my PhD on &amp;ldquo;Group rings over the p-adic integers&amp;rdquo; at RWTH Aachen University in 2012. An up-to-date academic CV is available here.</description>
     </item>
     
     <item>
@@ -55,6 +55,16 @@
       
       <guid>/home/posts/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>GAP Code</title>
+      <link>/home/code/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/code/</guid>
+      <description>The &amp;ldquo;orders&amp;rdquo; package This package allows to compute with orders over the $p$-adic integers, such as $\mathbb Z_p G$ for a finite group $G$. Among other things it can compute indecomposable projective lattices and basic algebras. Most of it was written back in 2009 while I was working on my master&amp;rsquo;s thesis, but I added functionality over the last few years, as needed for my research.
+ Repository: https://github.com/feisele/orders/ Download: orders-1.</description>
     </item>
     
     <item>

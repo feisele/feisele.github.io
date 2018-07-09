@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.42.1" />
+  <meta name="generator" content="Hugo 0.42.2" />
   <meta name="author" content="Florian Eisele">
 
   
@@ -75,7 +75,7 @@
   <meta property="og:description" content="Postdoctoral researcher in Representation Theory">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-06-05T00:00:00&#43;01:00">
+  <meta property="og:updated_time" content="2017-10-24T00:00:00&#43;01:00">
   
 
   
@@ -142,6 +142,25 @@
           <a href="/#publications_selected" data-target="#publications_selected">
             
             <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#code" data-target="#code">
+            
+            <span>GAP Code</span>
             
           </a>
         </li>
@@ -273,7 +292,7 @@
 
     
 
-<h1 id="about-me">About me&hellip;</h1>
+<h1 id="about-me">About me</h1>
 
 <p>Since October 2015 I am a post-doctoral researcher working in the representation theory group at <i>City, University of London</i>. I previously held a position at <i>Vrije Universiteit Brussel</i> in Belgium. I completed my PhD on <a href=" http://publications.rwth-aachen.de/record/52285/files/4042.pdf">&ldquo;Group rings over the p-adic integers&rdquo;</a> at <i>RWTH Aachen University</i> in 2012. An up-to-date academic CV is available <a href="cv.pdf">here</a>.</p>
 
@@ -363,6 +382,45 @@
         <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
   <span itemprop="author">
+    Florian Eisele, Leo Margolis</span>.
+  <a href="/publication/zassenhaus_counterx/" itemprop="name">A Counterexample to the First Zassenhaus Conjecture</a>.
+  preprint (submitted),
+  2017.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1710.08780.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1710.08780" target="_blank" rel="noopener">
+  arXiv
+</a>
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
     Florian Eisele, Geoffrey Janssens, Theo Raedschelders</span>.
   <a href="/publication/reuctiontautilting/" itemprop="name">A reduction theorem for $\tau$-rigid modules</a>.
   Math Z.,
@@ -399,45 +457,6 @@
 
 <a class="btn btn-primary btn-outline btn-xs" href="https://doi.org/10.1007/s00209-018-2067-4" target="_blank" rel="noopener">
   journal
-</a>
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Florian Eisele, Leo Margolis</span>.
-  <a href="/publication/zassenhaus_counterx/" itemprop="name">A Counterexample to the First Zassenhaus Conjecture</a>.
-  preprint (submitted),
-  2017.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1710.08780.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1710.08780" target="_blank" rel="noopener">
-  arXiv
 </a>
 
 </p>
@@ -782,6 +801,54 @@
 </div>
 
       
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="code" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>GAP Code</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    <p><h2 id="the-orders-package">The <em>&ldquo;orders&rdquo;</em> package</h2>
+
+<p>This package allows to compute with orders over the $p$-adic integers, such as $\mathbb Z_p G$ for a finite group $G$.
+Among other things it can compute indecomposable projective lattices and basic algebras. Most of it was written back in 2009 while I was working on my master&rsquo;s thesis, but I added functionality over the last few years, as needed for my research.</p>
+
+<ul>
+<li>Repository: <a href="https://github.com/feisele/orders/" target="_blank">https://github.com/feisele/orders/</a></li>
+<li>Download: <a href="https://github.com/feisele/orders/archive/1.0.tar.gz" target="_blank">orders-1.0.tar.gz</a> (just unpack this in the <code>pkg/</code> directory of your <a href="https://www.gap-system.org" target="_blank">GAP</a> installation and use <code>LoadPackage(&quot;orders&quot;);</code>)</li>
+</ul>
+</p>
+
+    
+    
+
+    
+
+    
+
+    <div class="row isotope projects-container js-layout-masonry">
+
+      
+
+    </div>
+
     
 
   </div>
