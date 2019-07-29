@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Florian Eisele on Florian Eisele</title>
@@ -7,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2019 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -20,20 +19,20 @@
     </item>
     
     <item>
-      <title>Donovan&#39;s conjecture, blocks with abelian defect groups and discrete valuation rings</title>
-      <link>/publication/donovan_ab_o/</link>
-      <pubDate>Mon, 24 Sep 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/publication/donovan_ab_o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The Picard group of an order and Külshammer reduction</title>
       <link>/publication/picard/</link>
       <pubDate>Mon, 16 Jul 2018 00:00:00 +0100</pubDate>
       
       <guid>/publication/picard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Donovan&#39;s conjecture, blocks with abelian defect groups and discrete valuation rings</title>
+      <link>/publication/donovan_ab_o/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/donovan_ab_o/</guid>
       <description></description>
     </item>
     
