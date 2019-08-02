@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>0 on Florian Eisele</title>
+    <title>0 | Florian Eisele</title>
     <link>/publication_types/0/</link>
-    <description>Recent content in 0 on Florian Eisele</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 08 Jul 2019 00:00:00 +0100</lastBuildDate>
+      <atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>0</title>
+      <link>/publication_types/0/</link>
+    </image>
     
-	<atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>On the geometry of lattices and finiteness of Picard groups</title>
+      <link>/publication/geometry_of_lattices/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0100</pubDate>
+      <guid>/publication/geometry_of_lattices/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On solvability of the first Hochschild cohomology of a finite-dimensional algebra</title>
       <link>/publication/hochschild_solv/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>/publication/hochschild_solv/</guid>
       <description></description>
     </item>
@@ -25,26 +32,7 @@
       <title>The Picard group of an order and Külshammer reduction</title>
       <link>/publication/picard/</link>
       <pubDate>Mon, 16 Jul 2018 00:00:00 +0100</pubDate>
-      
       <guid>/publication/picard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Donovan&#39;s conjecture, blocks with abelian defect groups and discrete valuation rings</title>
-      <link>/publication/donovan_ab_o/</link>
-      <pubDate>Mon, 08 Jul 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/publication/donovan_ab_o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A reduction theorem for $\tau$-rigid modules</title>
-      <link>/publication/reuctiontautilting/</link>
-      <pubDate>Tue, 05 Jun 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/publication/reuctiontautilting/</guid>
       <description></description>
     </item>
     
