@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/publication/geometry_of_lattices/</loc>
-    <lastmod>2019-08-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/hochschild_solv/</loc>
     <lastmod>2019-02-19T00:00:00+00:00</lastmod>
   </url>
@@ -28,31 +23,31 @@
   </url>
   
   <url>
-    <loc>/publication_types/0/</loc>
-    <lastmod>2019-08-01T00:00:00+01:00</lastmod>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2019-07-08T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-08-01T00:00:00+01:00</lastmod>
+    <lastmod>2019-07-08T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
-    <lastmod>2019-08-01T00:00:00+01:00</lastmod>
+    <lastmod>2019-07-08T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/</loc>
-    <lastmod>2019-08-01T00:00:00+01:00</lastmod>
+    <lastmod>2019-07-08T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2019-07-08T00:00:00+01:00</lastmod>
+    <loc>/publication_types/0/</loc>
+    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
