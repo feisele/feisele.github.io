@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Florian Eisele</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jul 2019 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Florian Eisele</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>On the geometry of lattices and finiteness of Picard groups</title>
+      <link>/publication/geometry_of_lattices/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0100</pubDate>
+      <guid>/publication/geometry_of_lattices/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On solvability of the first Hochschild cohomology of a finite-dimensional algebra</title>
