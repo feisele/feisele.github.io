@@ -12,5 +12,15 @@
       <link>/authors/</link>
     </image>
     
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a postdoctoral researcher in representation theory at &lt;i&gt;City, University of London&lt;/i&gt;.
+In the past I also held positions at the &lt;i&gt;University of Glasgow&lt;/i&gt; and at &lt;i&gt;Vrije Universiteit Brussel&lt;/i&gt; in Belgium. I completed my PhD on &lt;a href=&#34; http://publications.rwth-aachen.de/record/52285/files/4042.pdf&#34;&gt;&amp;ldquo;Group rings over the p-adic integers&amp;rdquo;&lt;/a&gt; at &lt;i&gt;RWTH Aachen University&lt;/i&gt; in 2012. An up-to-date academic CV is available &lt;a href=&#34;cv.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
