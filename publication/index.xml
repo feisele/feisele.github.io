@@ -5,7 +5,7 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 12 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 17 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Publications</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>On the geometry of lattices and finiteness of Picard groups</title>
-      <link>/publication/geometry_of_lattices/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0100</pubDate>
-      <guid>/publication/geometry_of_lattices/</guid>
+      <title>The Picard group of an order and Külshammer reduction</title>
+      <link>/publication/picard/</link>
+      <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/picard/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>The Picard group of an order and Külshammer reduction</title>
-      <link>/publication/picard/</link>
-      <pubDate>Mon, 16 Jul 2018 00:00:00 +0100</pubDate>
-      <guid>/publication/picard/</guid>
+      <title>On the geometry of lattices and finiteness of Picard groups</title>
+      <link>/publication/geometry_of_lattices/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0100</pubDate>
+      <guid>/publication/geometry_of_lattices/</guid>
       <description></description>
     </item>
     
