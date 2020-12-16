@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Florian Eisele</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://feisele.github.io/</link>
+      <atom:link href="https://feisele.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Florian Eisele</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://feisele.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Florian Eisele</title>
-      <link>/</link>
+      <link>https://feisele.github.io/</link>
     </image>
     
     <item>
       <title>The Picard group of an order and Külshammer reduction</title>
-      <link>/publication/picard/</link>
+      <link>https://feisele.github.io/publication/picard/</link>
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/picard/</guid>
+      <guid>https://feisele.github.io/publication/picard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arbitrarily large Morita Frobenius numbers</title>
-      <link>/publication/frobeniusnumbers/</link>
+      <link>https://feisele.github.io/publication/frobeniusnumbers/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0100</pubDate>
-      <guid>/publication/frobeniusnumbers/</guid>
+      <guid>https://feisele.github.io/publication/frobeniusnumbers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On the geometry of lattices and finiteness of Picard groups</title>
-      <link>/publication/geometry_of_lattices/</link>
+      <link>https://feisele.github.io/publication/geometry_of_lattices/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0100</pubDate>
-      <guid>/publication/geometry_of_lattices/</guid>
+      <guid>https://feisele.github.io/publication/geometry_of_lattices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On solvability of the first Hochschild cohomology of a finite-dimensional algebra</title>
-      <link>/publication/hochschild_solv/</link>
+      <link>https://feisele.github.io/publication/hochschild_solv/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/hochschild_solv/</guid>
+      <guid>https://feisele.github.io/publication/hochschild_solv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A reduction theorem for $\tau$-rigid modules</title>
-      <link>/publication/reuctiontautilting/</link>
+      <link>https://feisele.github.io/publication/reuctiontautilting/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/publication/reuctiontautilting/</guid>
+      <guid>https://feisele.github.io/publication/reuctiontautilting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example Talk</title>
-      <link>/talk/example/</link>
+      <link>https://feisele.github.io/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
+      <guid>https://feisele.github.io/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -74,17 +74,17 @@
     
     <item>
       <title>Donovan&#39;s conjecture, blocks with abelian defect groups and discrete valuation rings</title>
-      <link>/publication/donovan_ab_o/</link>
+      <link>https://feisele.github.io/publication/donovan_ab_o/</link>
       <pubDate>Mon, 08 Jul 2019 00:00:00 +0100</pubDate>
-      <guid>/publication/donovan_ab_o/</guid>
+      <guid>https://feisele.github.io/publication/donovan_ab_o/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://feisele.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://feisele.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -211,33 +211,33 @@ Three
     
     <item>
       <title>A Counterexample to the First Zassenhaus Conjecture</title>
-      <link>/publication/zassenhaus_counterx/</link>
+      <link>https://feisele.github.io/publication/zassenhaus_counterx/</link>
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0100</pubDate>
-      <guid>/publication/zassenhaus_counterx/</guid>
+      <guid>https://feisele.github.io/publication/zassenhaus_counterx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On Tate duality and a projective scalar property for symmetric algebras</title>
-      <link>/publication/egkl/</link>
+      <link>https://feisele.github.io/publication/egkl/</link>
       <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/egkl/</guid>
+      <guid>https://feisele.github.io/publication/egkl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blocks with a generalized quaternion defect group and three simple modules over a 2-adic ring</title>
-      <link>/publication/quaternion/</link>
+      <link>https://feisele.github.io/publication/quaternion/</link>
       <pubDate>Wed, 15 Jun 2016 00:00:00 +0100</pubDate>
-      <guid>/publication/quaternion/</guid>
+      <guid>https://feisele.github.io/publication/quaternion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>https://feisele.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
+      <guid>https://feisele.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -329,41 +329,41 @@ Three
     
     <item>
       <title>Describing units of integral group rings up to commensurability</title>
-      <link>/publication/units_commens/</link>
+      <link>https://feisele.github.io/publication/units_commens/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0100</pubDate>
-      <guid>/publication/units_commens/</guid>
+      <guid>https://feisele.github.io/publication/units_commens/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The $p$-adic group ring of ${\rm SL}_2(p^f)$</title>
-      <link>/publication/sl2pf/</link>
+      <link>https://feisele.github.io/publication/sl2pf/</link>
       <pubDate>Tue, 15 Jul 2014 00:00:00 +0100</pubDate>
-      <guid>/publication/sl2pf/</guid>
+      <guid>https://feisele.github.io/publication/sl2pf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Basic Orders for Defect Two Blocks of $\mathbb Z_p\Sigma_n$</title>
-      <link>/publication/defecttwosn/</link>
+      <link>https://feisele.github.io/publication/defecttwosn/</link>
       <pubDate>Thu, 13 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/defecttwosn/</guid>
+      <guid>https://feisele.github.io/publication/defecttwosn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On the IYB-property in some solvable groups</title>
-      <link>/publication/iyb/</link>
+      <link>https://feisele.github.io/publication/iyb/</link>
       <pubDate>Thu, 03 Oct 2013 00:00:00 +0100</pubDate>
-      <guid>/publication/iyb/</guid>
+      <guid>https://feisele.github.io/publication/iyb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An example conference paper</title>
-      <link>/publication/example/</link>
+      <link>https://feisele.github.io/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/example/</guid>
+      <guid>https://feisele.github.io/publication/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -380,9 +380,9 @@ Three
     
     <item>
       <title>$p$-Adic lifting problems and derived equivalences</title>
-      <link>/publication/lifting/</link>
+      <link>https://feisele.github.io/publication/lifting/</link>
       <pubDate>Sun, 15 Apr 2012 00:00:00 +0100</pubDate>
-      <guid>/publication/lifting/</guid>
+      <guid>https://feisele.github.io/publication/lifting/</guid>
       <description></description>
     </item>
     
