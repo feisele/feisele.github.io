@@ -5,7 +5,7 @@
     <link>https://feisele.github.io/publication/</link>
       <atom:link href="https://feisele.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://feisele.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>On the geometry of lattices and finiteness of Picard groups</title>
+      <link>https://feisele.github.io/publication/geometry_of_lattices/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/geometry_of_lattices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Picard group of an order and Külshammer reduction</title>
       <link>https://feisele.github.io/publication/picard/</link>
-      <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://feisele.github.io/publication/picard/</guid>
       <description></description>
     </item>
@@ -33,14 +41,6 @@
       <link>https://feisele.github.io/publication/frobeniusnumbers/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://feisele.github.io/publication/frobeniusnumbers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On the geometry of lattices and finiteness of Picard groups</title>
-      <link>https://feisele.github.io/publication/geometry_of_lattices/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/geometry_of_lattices/</guid>
       <description></description>
     </item>
     
