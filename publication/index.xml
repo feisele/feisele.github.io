@@ -5,7 +5,7 @@
     <link>https://feisele.github.io/publication/</link>
       <atom:link href="https://feisele.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://feisele.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -31,7 +31,7 @@
     <item>
       <title>Arbitrarily large Morita Frobenius numbers</title>
       <link>https://feisele.github.io/publication/frobeniusnumbers/</link>
-      <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://feisele.github.io/publication/frobeniusnumbers/</guid>
       <description></description>
     </item>
@@ -57,6 +57,14 @@
       <link>https://feisele.github.io/publication/reuctiontautilting/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://feisele.github.io/publication/reuctiontautilting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Units in Blocks of Defect 1 and the Zassenhaus Conjecture</title>
+      <link>https://feisele.github.io/publication/zassenhaus_cyclic_defect/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/zassenhaus_cyclic_defect/</guid>
       <description></description>
     </item>
     
