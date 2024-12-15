@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>0 | Florian Eisele</title>
-    <link>/publication_types/0/</link>
-      <atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://feisele.github.io/publication_types/0/</link>
+      <atom:link href="https://feisele.github.io/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0100</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://feisele.github.io/media/icon_hu7729264130191091259.png</url>
       <title>0</title>
-      <link>/publication_types/0/</link>
+      <link>https://feisele.github.io/publication_types/0/</link>
     </image>
     
     <item>
-      <title>Arbitrarily large Morita Frobenius numbers</title>
-      <link>/publication/frobeniusnumbers/</link>
-      <pubDate>Thu, 25 Jun 2020 00:00:00 +0100</pubDate>
-      <guid>/publication/frobeniusnumbers/</guid>
+      <title>Units in group rings and blocks of Klein four or dihedral defect</title>
+      <link>https://feisele.github.io/publication/zassenhaus_klein_four/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/zassenhaus_klein_four/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>On the geometry of lattices and finiteness of Picard groups</title>
-      <link>/publication/geometry_of_lattices/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0100</pubDate>
-      <guid>/publication/geometry_of_lattices/</guid>
+      <title>A counterexample to a conjecture on Cartan determinants of monoid algebras</title>
+      <link>https://feisele.github.io/publication/monoid_counerexample/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/monoid_counerexample/</guid>
       <description></description>
     </item>
     

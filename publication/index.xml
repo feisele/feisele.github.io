@@ -5,9 +5,9 @@
     <link>https://feisele.github.io/publication/</link>
       <atom:link href="https://feisele.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://feisele.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://feisele.github.io/media/icon_hu7729264130191091259.png</url>
       <title>Publications</title>
       <link>https://feisele.github.io/publication/</link>
     </image>
@@ -61,18 +61,26 @@
     </item>
     
     <item>
-      <title>A counterexample to a conjecture on Cartan determinants of monoid algebras</title>
-      <link>https://feisele.github.io/publication/monoid_counerexample/</link>
-      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/monoid_counerexample/</guid>
+      <title>Units in Blocks of Defect 1 and the Zassenhaus Conjecture</title>
+      <link>https://feisele.github.io/publication/zassenhaus_cyclic_defect/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/zassenhaus_cyclic_defect/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Units in Blocks of Defect 1 and the Zassenhaus Conjecture</title>
-      <link>https://feisele.github.io/publication/zassenhaus_cyclic_defect/</link>
-      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/zassenhaus_cyclic_defect/</guid>
+      <title>Units in group rings and blocks of Klein four or dihedral defect</title>
+      <link>https://feisele.github.io/publication/zassenhaus_klein_four/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/zassenhaus_klein_four/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A counterexample to a conjecture on Cartan determinants of monoid algebras</title>
+      <link>https://feisele.github.io/publication/monoid_counerexample/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/monoid_counerexample/</guid>
       <description></description>
     </item>
     
@@ -138,25 +146,6 @@
       <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
       <guid>https://feisele.github.io/publication/iyb/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>An example conference paper</title>
-      <link>https://feisele.github.io/publication/example/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
     </item>
     
     <item>

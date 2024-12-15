@@ -1,15 +1,13 @@
-<!DOCTYPE html><html lang="en-us" >
-
-
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: December 15, 2024 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  
-  
-    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
-  
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
 
   
   
@@ -22,25 +20,8 @@
 
 
 
-  
 
 
-
-
-  
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
-
-  
-  
-  
-    
-      
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
-    
-  
 
   
   
@@ -53,14 +34,14 @@
   
   
 
-  
+  <meta name="author" content="Florian Eisele" />
 
   
   
   
     
   
-  <meta name="description" content="Lecturer in Pure Mathematics" />
+  <meta name="description" content="Florian Eisele" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://feisele.github.io/" />
@@ -68,262 +49,119 @@
   
   
   
-    <meta name="theme-color" content="#1565c0" />
+  
+    
+    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
   
 
   
   
     
-    <script src="/js/mathjax-config.js"></script>
-  
-
-  
-
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
-
-  
-  
-  
-    
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-
-    
-    
-    
-    
-      
-      
-      
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
-        
-      
-    
-
-    
-    
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-
-    
-
-    
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
   
 
   
   
   
-  
-  
-  <link rel="stylesheet" href="/css/wowchemy.63638f5ebe2af2c45dadecbd6a6c3fa9.css" />
 
   
 
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
-
-  
-
-  
-
-
-
-
-  
-  
-  
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-
   
     <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Florian Eisele" />
   
 
   
-    <link rel="manifest" href="/manifest.webmanifest" />
-  
-
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu3247630877640252165.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4166356570829923896.png" />
 
   <link rel="canonical" href="https://feisele.github.io/" />
 
@@ -350,11 +188,11 @@
   <meta property="og:site_name" content="Florian Eisele" />
   <meta property="og:url" content="https://feisele.github.io/" />
   <meta property="og:title" content="Florian Eisele" />
-  <meta property="og:description" content="Lecturer in Pure Mathematics" /><meta property="og:image" content="https://feisele.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://feisele.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Florian Eisele" /><meta property="og:image" content="https://feisele.github.io/media/icon_hu7729264130191091259.png" />
+    <meta property="twitter:image" content="https://feisele.github.io/media/icon_hu7729264130191091259.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
     
   
 
@@ -363,1074 +201,1043 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://feisele.github.io?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "url": "https://feisele.github.io"
+  "@type": "WebSite","url": "https://feisele.github.io/"
 }
 </script>
 
 
   
 
-  
-
-  
-
-
-
-
 
   <title>Florian Eisele</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.505d5f829022bb7b4f24dfee0aa1141cd7bba67afe411d1240335f820960b5c3.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr&#43;QR0SQDNfgglgtcM=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.dc84b296ec3e884de093158f760fd9d45b6c7abe58b5381557f4e138f46a58ae.js" integrity="sha256-3ISyluw&#43;iE3gkxWPdg/Z1Ftser5YtTgVV/ThOPRqWK4="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.6579ec9683211cfb952064aedf3a3baea5eeb17a061775b32b70917474637c80.js" integrity="sha256-ZXnsloMhHPuVIGSu3zo7rqXusXoGF3WzK3CRdHRjfIA="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+    
+  
+
+
+
+
 </head>
 
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script src="/js/wowchemy-init.min.6619cc29fe1a874b6ea1a0359aab5cfb.js"></script>
-
-  
-
-
-<aside class="search-modal" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
-        
-      </div>
-
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
       
       
-
       
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
         
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
-
-  <div class="page-header">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container-xl">
-
-    
-    <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Florian Eisele</a>
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Florian Eisele">
+        Florian Eisele
+      </a>
     </div>
     
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
 
     
-    <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i class="fas fa-bars"></i></span>
-    </button>
     
-
-    
-    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Florian Eisele</a>
-    </div>
-    
-
-    
-    
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
-
-      
-      <ul class="navbar-nav d-md-inline-flex">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#preprint" data-target="#preprint"><span>Preprints</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#news" data-target="#news"><span>Miscellaneous</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#code" data-target="#code"><span>GAP Code</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#theses" data-target="#theses"><span>Theses</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-      
-
-        
-      </ul>
-    </div>
-
-    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
       
       
-        
       
-
+      
       
       
       <li class="nav-item">
-        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        <a
+          class="nav-link active"
+          
+          href="/"
+        >About</a
+        >
       </li>
       
-
       
       
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#publications"
+        >Publications</a
+        >
       </li>
       
-
       
       
-
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#preprints"
+        >Preprints</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#theses"
+        >Theses</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#code"
+        >Code</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#misc"
+        >Misc</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#contact"
+        >Contact</a
+        >
+      </li>
+      
+      
+      
     </ul>
 
-  </div>
-</nav>
-
-
-  </div>
-
-  <div class="page-body">
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-<span class="js-widget-page d-none"></span>
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="about" class="home-section wg-about  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
 
       
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
       
-      <img class="avatar avatar-circle" src="https://s.gravatar.com/avatar/139f047a466e0c5abc121f1ced43abd0?s=270')" alt="">
       
 
-      <div class="portrait-title">
-        <h2></h2>
-        <h3>Lecturer in Pure Mathematics</h3>
-
-        
-        <h3>
-          <a href="https://www.maths.manchester.ac.uk" target="_blank" rel="noopener">
-          <span>University of Manchester</span>
-          </a>
-        </h3>
-        
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
       </div>
+      
 
-      <ul class="network-icon" aria-hidden="true">
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+
         
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-resume-biography-3" class="relative hbb-section blox-resume-biography-3  dark" style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg  bg-image" style="background-color: black;filter: brightness(1);">
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12">
+  <div class="flex-none m-w-[130px] mx-auto md:mx-0">
+
+  
+  
+
+  <div id="profile" class="flex justify-center items-center flex-col">
+    
+
+    <div class="avatar-wrapper mt-10">
+      
+      <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="/author/florian-eisele/avatar_hu15480719193081732883.jpg" alt="Florian Eisele"
+           width="150" height="150">
+      
+    </div>
+    
+
+    <div class="portrait-title dark:text-white">
+
+      <div class="text-3xl font-bold mb-2 mt-6">Florian Eisele</div>
+
+      <h3 class="font-semibold mb-1">Lecturer in Pure Mathematics</h3>
+
+      
+      <div class="mb-2">
+        <a href="https://www.maths.manchester.ac.uk" target="_blank" rel="noopener">
+        <div>University of Manchester</div>
+        </a>
+      </div>
+      
+    </div>
+
+    <ul class="network-icon dark:text-zinc-100">
+      
+      
+      
+      
         
+      
+      
+      
+      
+      
+      <li>
+        <a href="mailto:florian.eisele@manchester.ac.uk"  aria-label="envelope"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
         
+      
+      
+      
+      
+      
         
-          
+      
+      <li>
+        <a href="https://scholar.google.co.uk/citations?user=wCxyeJkAAAAJ" target="_blank" rel="noopener" aria-label="brands/google-scholar"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339 0 0 0-.219 6.225c0 20.845 7.22 38.087 21.672 51.861 14.453 13.797 32.252 20.648 53.327 20.648 4.923 0 9.75-.368 14.438-1.024-2.907 6.5-4.374 12.523-4.374 18.142 0 9.875 4.499 20.43 13.467 31.642-39.234 2.67-68.061 9.732-86.437 21.163-10.531 6.5-19 14.704-25.39 24.531-6.391 9.9-9.578 20.515-9.578 31.962 0 9.648 2.062 18.336 6.219 26.062 4.156 7.726 9.578 14.07 16.312 18.984 6.718 4.968 14.469 9.101 23.219 12.469 8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052 0 0 0 180.555 448c13.469 0 26.953-1.734 40.547-5.187 13.562-3.485 26.28-8.642 38.171-15.493 11.86-6.805 21.515-16.086 28.922-27.718 7.39-11.68 11.094-24.805 11.094-39.336 0-11.016-2.25-21.039-6.75-30.14-4.468-9.073-9.938-16.542-16.452-22.345-6.501-5.813-13-11.155-19.516-15.968-6.5-4.845-12-9.75-16.468-14.813-4.485-5.046-6.735-10.054-6.735-14.984 0-4.921 1.734-9.672 5.216-14.265 3.455-4.61 7.674-9.048 12.61-13.306 4.937-4.25 9.875-8.968 14.796-14.133 4.922-5.147 9.141-11.827 12.61-20.008 3.485-8.18 5.203-17.445 5.203-27.757 0-13.453-2.547-24.46-7.547-33.314-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958 0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038 4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553 0 0 1 6.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734 1 2.477 2.016 5.461 3.047 8.946a38.27 38.27 0 0 1 1.485 10.562c0 17.048-6.564 29.68-19.656 37.859-13.125 8.18-28.767 12.274-46.938 12.274-9.187 0-18.203-1.093-27.063-3.196-8.843-2.116-17.311-5.336-25.39-9.601-8.078-4.258-14.577-10.204-19.5-17.797-4.938-7.64-7.407-16.415-7.407-26.25 0-10.32 2.797-19.29 8.422-26.906 5.594-7.625 12.938-13.391 22.032-17.315 9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865 0 0 1 28.438-2.555c4.47 0 7.936.25 10.405.696.455.219 3.032 2.07 7.735 5.563 4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288-11.86 0-22.298-4.764-31.266-14.312-9-9.523-15.422-20.328-19.344-32.43-3.937-12.109-5.906-23.984-5.906-35.648 0-13.694 3.596-25.352 10.781-34.976 7.187-9.65 17.5-14.485 30.938-14.485 11.875 0 22.374 5.038 31.437 15.157 9.094 10.085 15.61 21.413 19.517 33.968 3.922 12.54 5.873 24.53 5.873 35.984 0 13.446-3.702 24.61-11.076 33.454z" style="stroke-width:.0647871"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
         
+      
+      
+      
+      
+      
         
+      
+      <li>
+        <a href="https://github.com/feisele" target="_blank" rel="noopener" aria-label="brands/github"
+           >
+          <svg style="height: 1.5rem;" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg>
+        </a>
+      </li>
+      
+      
+      
+      
         
+      
+      
+      
+      
+      
         
+      
+      <li>
+        <a href="https://mathoverflow.net/users/17498/florian-eisele" target="_blank" rel="noopener" aria-label="academicons/mathoverflow"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M202.213 207.128c10.086-6.205 19.394-10.861 27.151-13.964c7.757-3.103 13.964-4.654 19.394-4.654c10.861 0 19.394 3.878 25.601 10.861c6.208 6.981 9.308 17.067 9.308 29.478v76.8l4.655 4.654l14.74 1.551v10.084h-58.958v-10.084l12.413-1.55l4.654-4.655v-71.37c0-9.31-2.327-16.291-6.208-20.945c-3.878-4.655-10.086-6.981-18.618-6.981c-3.878 0-8.532.775-13.964 2.326c-5.43 1.552-10.861 3.879-17.067 6.981v90.764l4.655 4.655l13.186 1.55v10.085h-58.18V312.63l13.186-1.551l4.655-4.655v-71.37c0-9.31-2.327-16.29-6.208-20.945c-3.878-4.654-10.086-6.981-17.843-6.981c-4.654 0-9.308.775-13.964 2.327c-4.655 1.551-10.86 3.878-16.29 6.98V307.2l4.653 4.654l13.187 1.551v10.084H86.62v-10.084l14.74-1.551l4.654-4.654v-97.745H86.621v-8.532l31.807-9.31h10.086v14.74c9.308-5.43 17.842-9.31 24.823-12.413c6.981-2.327 13.187-3.878 18.618-3.878c6.981 0 12.413 1.551 17.843 4.654c4.656 2.327 9.31 6.206 12.415 12.413zm215.637-24.99c-70.595 0-88.435 61.284-88.435 88.437c0 33.358 25.6 55.079 65.938 55.079c71.37 0 88.438-62.836 88.438-86.109c0-36.463-23.273-57.408-65.94-57.408zm-20.167 119.465c-13.187 0-20.946-8.534-20.946-23.274c0-10.86 6.981-72.146 40.34-72.146c14.738 0 21.72 8.534 20.945 25.601c0 7.76-6.207 69.819-40.34 69.819zM28.209 64v384h384l-.01-86.4h-24.951v61.44H51.716V88.96H387.25v61.44h24.95l.011-86.399z"/></svg>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+
+  <div class="flex-auto max-w-prose md:mt-12">
+    
+    <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
+      <div class="bio-text" >
+        <h2 id="about-me">About Me</h2>
+<p>I am a mathematician. I am interested in algebra. In particular groups, finite-dimensional algebras and their representation theory.</p>
+
+      </div>
+    </div>
+    
+
+    
+    <a href="uploads/cv.pdf" target="_blank" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+      <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+    </svg> Download CV</a>
+    
+
+
+
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Interests</div>
+      <ul class="list-disc list-inside space-y-1 pl-5">
         
         <li>
-          <a href="mailto:florian.eisele@manchester.ac.uk"  aria-label="envelope">
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
+          Group representations
         </li>
         
-        
-        
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://scholar.google.co.uk/citations?user=wCxyeJkAAAAJ" target="_blank" rel="noopener" aria-label="google-scholar">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
+          Finite and profinite groups
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://github.com/feisele" target="_blank" rel="noopener" aria-label="github">
-            <i class="fab fa-github big-icon"></i>
-          </a>
+          Finite-dimensional algebras
         </li>
         
-        
-        
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://mathoverflow.net/users/17498/florian-eisele" target="_blank" rel="noopener" aria-label="mathoverflow">
-            <i class="ai ai-mathoverflow big-icon"></i>
-          </a>
+          Lattices and orders
         </li>
         
-        
-        
-        
-        
-        
-        
-        
-          
+        <li>
+          Hochschild cohomology
+        </li>
         
         <li>
-          <a href="/cv.pdf"  aria-label="cv">
-            <i class="ai ai-cv big-icon"></i>
-          </a>
+          Deformation theory
+        </li>
+        
+        <li>
+          $\tau$-tilting and silting theory
+        </li>
+        
+        <li>
+          Picard groups
+        </li>
+        
+        <li>
+          Unit groups
+        </li>
+        
+        <li>
+          Computer algebra
         </li>
         
       </ul>
-
     </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-    <h1>About me</h1>
-
-    <div class="article-style">
-      <p>I am a Lecturer in Pure Mathematics at the <i>University of Manchester</i>.
-In the past I held positions at <i>City, University of London</i>, the <i>University of Glasgow</i> and at <i>Vrije Universiteit Brussel</i>. I completed my PhD on <a href=" http://publications.rwth-aachen.de/record/52285/files/4042.pdf">&ldquo;Group rings over the p-adic integers&rdquo;</a> at <i>RWTH Aachen University</i> in 2012. An up-to-date academic CV is available <a href="cv.pdf">here</a>.</p>
-
-    </div>
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <div class="section-subheading">Interests</div>
-        <ul class="ul-interests mb-0">
-          
-          <li>Modular representation theory</li>
-          
-          <li>Representations of Artin algebras</li>
-          
-          <li>Integral and p-adic group rings</li>
-          
-          <li>$\tau$-tilting and silting theory</li>
-          
-          <li>Hochschild cohomology</li>
-          
-          <li>Picard groups</li>
-          
-          <li>Unit groups</li>
-          
-          <li>Finite group theory</li>
-          
-          <li>Constructive methods &amp; computer algebra</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <div class="section-subheading">Education</div>
-        <ul class="ul-edu fa-ul mb-0">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD in Mathematics, 2012</p>
-              <p class="institution">RWTH Aachen University</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Diplom in Mathematics (minor in Physics), 2008</p>
-              <p class="institution">RWTH Aachen University</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
-
     
 
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="preprint" class="home-section wg-featured  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
     
-      <div class="row  ">
-      
+    <div class="">
+      <div class="section-subheading mb-3">Education</div>
+      <ul class="">
         
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Preprints</h1>
-            
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">PhD in Mathematics, 2012</p>
+            <p class="text-sm">RWTH Aachen University</p>
           </div>
+        </li>
         
-      
-    
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-      
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Florian Eisele</span>.
-  </span>
-  <a href="/publication/monoid_counerexample/">A counterexample to a conjecture on Cartan determinants of monoid algebras</a>.
-  preprint,
-  2023.
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2306.14002" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2306.14002" target="_blank" rel="noopener">
-    arXiv</a>
-
-
-  </div>
-  
-
-  
-</div>
-
-    
-  
-    
-      
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Florian Eisele</span>, <span >
-      Leo Margolis</span>.
-  </span>
-  <a href="/publication/zassenhaus_cyclic_defect/">Units in Blocks of Defect 1 and the Zassenhaus Conjecture</a>.
-  preprint,
-  2022.
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2212.06634" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2212.06634" target="_blank" rel="noopener">
-    arXiv</a>
-
-
-  </div>
-  
-
-  
-</div>
-
-    
-  
-
-  
-  
-  
-
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="publications" class="home-section wg-pages  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Publications</h1>
-            
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">Diplom in Mathematics, 2008</p>
+            <p class="text-sm">RWTH Aachen University</p>
           </div>
+        </li>
         
-      
+      </ul>
+    </div>
     
 
-      
+  </div>
+
+</div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
 
 
 
@@ -1438,6 +1245,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -1451,8 +1266,6 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-  
-  
 
 
 
@@ -1467,26 +1280,134 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-  
 
 
 
 
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
 
   
     
-      
+    
+    
+  
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="publications" class="relative hbb-section blox-collection  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Publications
+  </div>
+
+  
+</div>
+
+
+<div class="flex flex-col items-center px-6">
+
+  
+  
+<div class="mt-16 sm:mt-20 container max-w-3xl w-full">
+  <div class="flex flex-col space-y-3">
+
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -1495,16 +1416,17 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
+  <span class="font-bold">
       Florian Eisele</span>, <span >
-      Michael Livesey</span>.
+      Leo Margolis</span>
   </span>
-  <a href="/publication/frobeniusnumbers/">Arbitrarily large Morita Frobenius numbers</a>.
-  Algebra &amp; Number Theory, Vol. 16, No. 8, 1889–1904,
-  2022.
+  (2024).
+  <a href="/publication/zassenhaus_cyclic_defect/" class="underline">Units in Blocks of Defect 1 and the Zassenhaus Conjecture</a>.
+  Rev. Mat. Complut., to appear.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -1520,7 +1442,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2006.13837" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/2212.06634" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -1550,7 +1473,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2006.13837" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/2212.06634" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -1564,7 +1488,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.2140/ant.2022.16.1889" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1007/s13163-024-00513-5" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -1572,14 +1497,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -1588,292 +1513,17 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
-      Florian Eisele</span>.
-  </span>
-  <a href="/publication/silting_bijection/">Bijections of silting complexes and derived Picard groups</a>.
-  J. London Math. Soc., 106: 1008-1060,
-  2022.
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2101.06258" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2101.06258" target="_blank" rel="noopener">
-    arXiv</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1112/jlms.12591" target="_blank" rel="noopener">
-    journal</a>
-
-
-  </div>
-  
-
-  
-</div>
-
-    
-  
-    
-      
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Florian Eisele</span>.
-  </span>
-  <a href="/publication/geometry_of_lattices/">On the geometry of lattices and finiteness of Picard groups</a>.
-  J. Reine Angew. Math. (Crelle&rsquo;s journal) 782, 219–233,
-  2021.
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1908.00129" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1908.00129" target="_blank" rel="noopener">
-    arXiv</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1515/crelle-2021-0064" target="_blank" rel="noopener">
-    journal</a>
-
-
-  </div>
-  
-
-  
-</div>
-
-    
-  
-    
-      
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Florian Eisele</span>.
-  </span>
-  <a href="/publication/picard/">The Picard group of an order and Külshammer reduction</a>.
-  Algebr. Represent. Th. 24, pages 505–518,
-  2020.
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1807.05110.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1807.05110" target="_blank" rel="noopener">
-    arXiv</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s10468-020-09957-x" target="_blank" rel="noopener">
-    journal</a>
-
-
-  </div>
-  
-
-  
-</div>
-
-    
-  
-    
-      
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
+  <span class="font-bold">
       Florian Eisele</span>, <span >
-      Theo Raedschelders</span>.
+      Michael Livesey</span>
   </span>
-  <a href="/publication/hochschild_solv/">On solvability of the first Hochschild cohomology of a finite-dimensional algebra</a>.
-  Trans. Amer. Math. Soc. 373, 7607-7638,
-  2019.
+  (2022).
+  <a href="/publication/frobeniusnumbers/" class="underline">Arbitrarily large Morita Frobenius numbers</a>.
+  Algebra &amp; Number Theory, Vol. 16, No. 8, 1889–1904.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -1889,7 +1539,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1903.07380.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/2006.13837" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -1919,7 +1570,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1903.07380" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/2006.13837" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -1933,7 +1585,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1090/tran/8064" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.2140/ant.2022.16.1889" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -1941,14 +1594,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -1957,17 +1610,305 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
-      Charles W. Eaton</span>, <span >
+  <span class="font-bold">
+      Florian Eisele</span>
+  </span>
+  (2022).
+  <a href="/publication/silting_bijection/" class="underline">Bijections of silting complexes and derived Picard groups</a>.
+  J. London Math. Soc., 106: 1008-1060.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/2101.06258" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/2101.06258" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    arXiv</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1112/jlms.12591" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    journal</a>
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="font-bold">
+      Florian Eisele</span>
+  </span>
+  (2021).
+  <a href="/publication/geometry_of_lattices/" class="underline">On the geometry of lattices and finiteness of Picard groups</a>.
+  J. Reine Angew. Math. (Crelle&rsquo;s journal) 782, 219–233.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1908.00129" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1908.00129" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    arXiv</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1515/crelle-2021-0064" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    journal</a>
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="font-bold">
+      Florian Eisele</span>
+  </span>
+  (2020).
+  <a href="/publication/picard/" class="underline">The Picard group of an order and Külshammer reduction</a>.
+  Algebr. Represent. Th. 24, pages 505–518.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1807.05110.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1807.05110" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    arXiv</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1007/s10468-020-09957-x" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    journal</a>
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="font-bold">
       Florian Eisele</span>, <span >
-      Michael Livesey</span>.
+      Theo Raedschelders</span>
   </span>
-  <a href="/publication/donovan_ab_o/">Donovan&#39;s conjecture, blocks with abelian defect groups and discrete valuation rings</a>.
-  Math Z., Vol. 295, Pages 249–264,
-  2019.
+  (2019).
+  <a href="/publication/hochschild_solv/" class="underline">On solvability of the first Hochschild cohomology of a finite-dimensional algebra</a>.
+  Trans. Amer. Math. Soc. 373, 7607-7638.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -1983,7 +1924,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1809.08152.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1903.07380.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -2013,7 +1955,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1809.08152" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1903.07380" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -2027,7 +1970,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s00209-019-02354-1" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1090/tran/8064" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -2035,14 +1979,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -2052,15 +1996,17 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
     
 
   <span >
+      Charles W. Eaton</span>, <span class="font-bold">
       Florian Eisele</span>, <span >
-      Leo Margolis</span>.
+      Michael Livesey</span>
   </span>
-  <a href="/publication/zassenhaus_counterx/">A Counterexample to the First Zassenhaus Conjecture</a>.
-  Adv. Math., Vol. 339, Pages 599-641,
-  2018.
+  (2019).
+  <a href="/publication/donovan_ab_o/" class="underline">Donovan&#39;s conjecture, blocks with abelian defect groups and discrete valuation rings</a>.
+  Math Z., Vol. 295, Pages 249–264.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -2076,7 +2022,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1710.08780.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1809.08152.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -2106,7 +2053,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1710.08780" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1809.08152" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -2120,7 +2068,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.aim.2018.10.004" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1007/s00209-019-02354-1" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -2128,14 +2077,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -2144,17 +2093,115 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
+  <span class="font-bold">
+      Florian Eisele</span>, <span >
+      Leo Margolis</span>
+  </span>
+  (2018).
+  <a href="/publication/zassenhaus_counterx/" class="underline">A Counterexample to the First Zassenhaus Conjecture</a>.
+  Adv. Math., Vol. 339, Pages 599-641.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1710.08780.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1710.08780" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    arXiv</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1016/j.aim.2018.10.004" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    journal</a>
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="font-bold">
       Florian Eisele</span>, <span >
       Geoffrey Janssens</span>, <span >
-      Theo Raedschelders</span>.
+      Theo Raedschelders</span>
   </span>
-  <a href="/publication/reuctiontautilting/">A reduction theorem for $\tau$-rigid modules</a>.
-  Math Z., Vol. 290, Issue 3–4, Pages 1377–1413,
-  2018.
+  (2018).
+  <a href="/publication/reuctiontautilting/" class="underline">A reduction theorem for $\tau$-rigid modules</a>.
+  Math Z., Vol. 290, Issue 3–4, Pages 1377–1413.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -2170,7 +2217,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1603.04293.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1603.04293.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -2181,7 +2229,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/feisele/tau-tilting-article-code" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://github.com/feisele/tau-tilting-article-code" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
   Code
 </a>
 
@@ -2208,7 +2257,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1603.04293" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1603.04293" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -2222,7 +2272,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s00209-018-2067-4" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1007/s00209-018-2067-4" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -2230,14 +2281,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -2246,18 +2297,19 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
+  <span class="font-bold">
       Florian Eisele</span>, <span >
       Michael Geline</span>, <span >
       Radha Kessar</span>, <span >
-      Markus Linckelmann</span>.
+      Markus Linckelmann</span>
   </span>
-  <a href="/publication/egkl/">On Tate duality and a projective scalar property for symmetric algebras</a>.
-  Pacific J. Math. Vol. 293 (2018), No. 2, 277–300,
-  2017.
+  (2017).
+  <a href="/publication/egkl/" class="underline">On Tate duality and a projective scalar property for symmetric algebras</a>.
+  Pacific J. Math. Vol. 293 (2018), No. 2, 277–300.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -2273,7 +2325,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1608.06497.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1608.06497.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -2303,7 +2356,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1608.06497" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1608.06497" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -2317,7 +2371,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.2140/pjm.2018.293.277" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.2140/pjm.2018.293.277" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -2325,14 +2380,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -2341,15 +2396,16 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
-      Florian Eisele</span>.
+  <span class="font-bold">
+      Florian Eisele</span>
   </span>
-  <a href="/publication/quaternion/">Blocks with a generalized quaternion defect group and three simple modules over a 2-adic ring</a>.
-  J. Algebra, Volume 456, Pages 294-322,
-  2016.
+  (2016).
+  <a href="/publication/quaternion/" class="underline">Blocks with a generalized quaternion defect group and three simple modules over a 2-adic ring</a>.
+  J. Algebra, Volume 456, Pages 294-322.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -2365,7 +2421,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1506.05159.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1506.05159.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -2395,7 +2452,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1506.05159" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1506.05159" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -2409,7 +2467,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jalgebra.2016.03.010" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1016/j.jalgebra.2016.03.010" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -2417,14 +2476,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -2433,17 +2492,18 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
+  <span class="font-bold">
       Florian Eisele</span>, <span >
       Ann Kiefer</span>, <span >
-      Inneke Van Gelder</span>.
+      Inneke Van Gelder</span>
   </span>
-  <a href="/publication/units_commens/">Describing units of integral group rings up to commensurability</a>.
-  J. Pure Appl. Algebra, Volume 219, Issue 7, Pages 2901-2916,
-  2015.
+  (2015).
+  <a href="/publication/units_commens/" class="underline">Describing units of integral group rings up to commensurability</a>.
+  J. Pure Appl. Algebra, Volume 219, Issue 7, Pages 2901-2916.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -2459,7 +2519,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1401.7854.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1401.7854.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -2489,7 +2550,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1401.7854" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1401.7854" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -2503,7 +2565,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jpaa.2014.09.031" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1016/j.jpaa.2014.09.031" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -2511,14 +2574,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -2527,15 +2590,16 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
-      Florian Eisele</span>.
+  <span class="font-bold">
+      Florian Eisele</span>
   </span>
-  <a href="/publication/sl2pf/">The $p$-adic group ring of ${\rm SL}_2(p^f)$</a>.
-  J. Algebra, Volume 410, Pages 421-459,
-  2014.
+  (2014).
+  <a href="/publication/sl2pf/" class="underline">The $p$-adic group ring of ${\rm SL}_2(p^f)$</a>.
+  J. Algebra, Volume 410, Pages 421-459.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -2551,7 +2615,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1301.7622.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1301.7622.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -2581,7 +2646,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1301.7622" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1301.7622" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -2595,7 +2661,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jalgebra.2014.01.036" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1016/j.jalgebra.2014.01.036" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -2603,14 +2670,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -2619,15 +2686,16 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
-      Florian Eisele</span>.
+  <span class="font-bold">
+      Florian Eisele</span>
   </span>
-  <a href="/publication/defecttwosn/">Basic Orders for Defect Two Blocks of $\mathbb Z_p\Sigma_n$</a>.
-  Comm. Algebra, Volume 42, Issue 7, Pages 2890-2907,
-  2014.
+  (2014).
+  <a href="/publication/defecttwosn/" class="underline">Basic Orders for Defect Two Blocks of $\mathbb Z_p\Sigma_n$</a>.
+  Comm. Algebra, Volume 42, Issue 7, Pages 2890-2907.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -2643,7 +2711,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1011.6598.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1011.6598.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -2673,7 +2742,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1011.6598" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1011.6598" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -2687,7 +2757,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1080/00927872.2013.773336" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1080/00927872.2013.773336" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -2695,14 +2766,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -2711,15 +2782,16 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
-      Florian Eisele</span>.
+  <span class="font-bold">
+      Florian Eisele</span>
   </span>
-  <a href="/publication/iyb/">On the IYB-property in some solvable groups</a>.
-  Arch. Math., Volume 101, Issue 4, Pages 309–318,
-  2013.
+  (2013).
+  <a href="/publication/iyb/" class="underline">On the IYB-property in some solvable groups</a>.
+  Arch. Math., Volume 101, Issue 4, Pages 309–318.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -2735,7 +2807,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1304.2063.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1304.2063.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -2765,7 +2838,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1304.2063" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1304.2063" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -2779,7 +2853,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s00013-013-0569-1" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1007/s00013-013-0569-1" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -2787,14 +2862,14 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
     
-      
 
-<div class="pub-list-item" style="margin-bottom: 1rem">
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
@@ -2803,15 +2878,16 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   <span class="article-metadata li-cite-author">
     
 
-  <span >
-      Florian Eisele</span>.
+  <span class="font-bold">
+      Florian Eisele</span>
   </span>
-  <a href="/publication/lifting/">$p$-Adic lifting problems and derived equivalences</a>.
-  J. Algebra, Volume 356, Issue 1, Pages 90-114,
-  2012.
+  (2012).
+  <a href="/publication/lifting/" class="underline">$p$-Adic lifting problems and derived equivalences</a>.
+  J. Algebra, Volume 356, Issue 1, Pages 90-114.
+  
 
   
-  <div class="btn-links">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -2827,7 +2903,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1102.1674.pdf" target="_blank" rel="noopener">
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/1102.1674.pdf" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
   PDF
 </a>
 
@@ -2857,7 +2934,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/1102.1674" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/1102.1674" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     arXiv</a>
 
   
@@ -2871,7 +2949,8 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jalgebra.2012.01.015" target="_blank" rel="noopener">
+  <a class="hb-attachment-link hb-attachment-small" href="https://doi.org/10.1016/j.jalgebra.2012.01.015" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
     journal</a>
 
 
@@ -2879,94 +2958,33 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
   
 
   
+  
 </div>
 
-    
   
 
-  
-  
-  
-
+  </div>
 </div>
 
 
-    
-      </div>
-    
+</div>
 
-    </div>
-  </section>
 
-  
-  
-  
+
+
+
+
   
 
   
+</section>
 
   
 
   
   
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="news" class="home-section wg-portfolio  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Miscellaneous</h1>
-            
-          </div>
-        
-      
     
 
-      
 
 
 
@@ -2974,104 +2992,474 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<div class="col-12 col-lg-8">
+  
 
-  <ul>
-<li>I am co-organising the conference <a href="https://sites.google.com/view/antic-manchester">Algebra and Number Theory In Conversation (ANTIC)</a> taking place in Manchester in September 2023.</li>
-<li>I co-organised the conference <a href="http://sites.google.com/view/ambleside2022">Structure of Group Algebras over Local Rings</a> in Ambleside, August 2022.</li>
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="preprints" class="relative hbb-section blox-collection  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Preprints &amp; Unpublished Notes
+  </div>
+
+  
+</div>
+
+
+<div class="flex flex-col items-center px-6">
+
+  
+  
+<div class="mt-16 sm:mt-20 container max-w-3xl w-full">
+  <div class="flex flex-col space-y-3">
+
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="font-bold">
+      Florian Eisele</span>, <span >
+      Leo Margolis</span>
+  </span>
+  (2024).
+  <a href="/publication/zassenhaus_klein_four/" class="underline">Units in group rings and blocks of Klein four or dihedral defect</a>.
+  preprint.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/2412.09525" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/2412.09525" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    arXiv</a>
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="font-bold">
+      Florian Eisele</span>
+  </span>
+  (2023).
+  <a href="/publication/monoid_counerexample/" class="underline">A counterexample to a conjecture on Cartan determinants of monoid algebras</a>.
+  note (not intended for publication).
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/2306.14002" target="_blank" rel="noopener">
+  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/2306.14002" target="_blank" rel="noopener">
+    <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+    arXiv</a>
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="theses" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Theses
+  </div>
+
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><ul>
+<li>PhD thesis: <a href="http://publications.rwth-aachen.de/record/52285/files/4042.pdf">Group rings over the $p$-adic integers</a>, March 2012.</li>
+<li><i>Diplom</i> thesis: <a href="uploads/diplom.pdf">Algorithmische Behandlung $p$-adischer ganzzahliger Gruppenringe</a> <i>(in German)</i>, October 2008.</li>
 </ul>
-
-
-  
-
-  <div class=" row js-layout-row ">
-
-    
-    
-      
-    
-
-    
-  </div>
+</div>
 </div>
 
 
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
   
 
   
+</section>
 
   
 
   
   
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="code" class="home-section wg-portfolio  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">GAP Code</h1>
-            
-          </div>
-        
-      
     
 
-      
 
 
 
@@ -3079,312 +3467,442 @@ In the past I held positions at <i>City, University of London</i>, the <i>Univer
 
 
 
-<div class="col-12 col-lg-8">
+  
 
-  <h2 id="the-orders-package">The <em>&ldquo;orders&rdquo;</em> package</h2>
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="code" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    GAP Code
+  </div>
+
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><h4 id="the-orders-package">The <em>&ldquo;orders&rdquo;</em> package</h4>
 <p>This package allows to compute with orders over the $p$-adic integers, such as $\mathbb Z_p G$ for a finite group $G$.
 Among other things it can compute indecomposable projective lattices and basic algebras. Most of it was written back in 2009 while I was working on my master&rsquo;s thesis, but I added functionality over the last few years, as needed for my research.</p>
 <ul>
 <li>Repository: <a href="https://github.com/feisele/orders/" target="_blank" rel="noopener">https://github.com/feisele/orders/</a></li>
 <li>Download: <a href="https://github.com/feisele/orders/archive/1.02.tar.gz" target="_blank" rel="noopener">orders-1.02.tar.gz</a> (just unpack this in the <code>pkg/</code> directory of your <a href="https://www.gap-system.org" target="_blank" rel="noopener">GAP</a> installation and use <code>LoadPackage(&quot;orders&quot;);</code>)</li>
-</ul>
-
-
-  
-
-  <div class=" row js-layout-row ">
-
-    
-    
-      
-    
-
-    
-  </div>
+</ul></div>
 </div>
 
 
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
   
 
   
+</section>
 
   
 
   
   
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="theses" class="home-section wg-blank  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Theses</h1>
-            
-          </div>
-        
-      
     
 
-      
 
 
 
-  <div class="col-12 col-lg-8">
-    <ul>
-<li>PhD thesis: <a href="http://publications.rwth-aachen.de/record/52285/files/4042.pdf">Group rings over the $p$-adic integers</a>, defended in March 2012. Adviser: Professor Gabriele Nebe</li>
-<li><i>Diplom</i> thesis: <a href="diplom.pdf">Algorithmische Behandlung $p$-adischer ganzzahliger Gruppenringe</a> <i>(in German)</i>, completed in October 2008.</li>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="misc" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Miscellaneous
+  </div>
+
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><ul>
+<li>I co-organised the conference <a href="https://sites.google.com/view/antic-manchester">Algebra and Number Theory In Conversation (ANTIC)</a> in Manchester, September 2023.</li>
+<li>I co-organised the conference <a href="http://sites.google.com/view/ambleside2022">Structure of Group Algebras over Local Rings</a> in Ambleside, August 2022.</li>
 </ul>
-<!---A by-product of this thesis is a <a href="http://www.gap-system.org">GAP</a> -package called "orders", which allows computation with lattices over orders over the $p$-adic integers. In my thesis, I used this package
- to compute basic algebras of $\\mathbb Z_p G$ for certain finite groups $G$. More generally, this package implements GAP-objects and methods to compute with lattices over orders like $\\mathbb Z_p G$ 
- (e. g. compute all lattices having a given character, or checking whether two such lattices are isomorphic). The package is available <a href="https://github.com/feisele/orders">here</a>.
--->
-
-  </div>
-
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="contact" class="home-section wg-contact  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Contact</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-
-  <ul class="fa-ul">
-
-    
-    <li>
-      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-      <span id="person-email"><a href="mailto:florian.eisele@manchester.ac.uk">florian.eisele@manchester.ac.uk</a></span>
-    </li>
-    
-
-    
-    <li>
-      <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-      <span id="person-telephone"><a href="tel:&#43;44%20161%20275%205838">&#43;44 161 275 5838</a></span>
-    </li>
-    
-
-    
-    
-      
-      <li>
-        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address">Room 2.120, Alan Turing Building, Department of Mathematics, University of Manchester, Oxford Road, Manchester, M13 9PL</span>
-      </li>
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-  </ul>
-
-  
-  <div class="d-none">
-    <input id="map-provider" value="mapnik">
-    <input id="map-lat" value="53.46813932088461">
-    <input id="map-lng" value="-2.2314455263164943">
-    <input id="map-dir" value="Room 2.120, Alan Turing Building, Department of Mathematics, University of Manchester, Oxford Road, Manchester, M13 9PL">
-    <input id="map-zoom" value="15">
-    <input id="map-api-key" value="">
-  </div>
-  <div id="map"></div>
-  
-
+</div>
 </div>
 
 
+  
+
+  
+</section>
+
+  
+
+  
+  
     
-      </div>
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="contact" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
     
 
-    </div>
-  </section>
 
 
 
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Contact
   </div>
 
-  <div class="page-footer">
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><table>
+  <thead>
+      <tr>
+          <th>
+  <span class="inline-block  pr-1">
+    <svg style="height: 1em; transform: translateY(0.1em);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></svg>
+  </span></th>
+          <th><a href="mailto:florian.eisele@manchester.ac.uk"><a href="mailto:florian.eisele@manchester.ac.uk">florian.eisele@manchester.ac.uk</a></a></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>
+  <span class="inline-block  pr-1">
+    <svg style="height: 1em; transform: translateY(0.1em);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5z"/></svg>
+  </span></td>
+          <td><a href="tel:+441612755838">+44 161 275 5838</a></td>
+      </tr>
+      <tr>
+          <td>
+  <span class="inline-block  pr-1">
+    <svg style="height: 1em; transform: translateY(0.1em);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 12l8.955-8.955a1.124 1.124 0 0 1 1.59 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
+  </span></td>
+          <td>Room 2.120, Alan Turing Building, Department of Mathematics, University of Manchester, Oxford Road, Manchester, M13 9PL</td>
+      </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by text-center">
+    © 2024 Florian Eisele.
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by text-center">
     
     
-    <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-
-
-
-
-
-  <p class="powered-by">
-    
-    
     
       
       
@@ -3392,134 +3910,15 @@ Among other things it can compute indecomposable projective lattices and basic a
       
       
       
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
+
 </footer>
 
     </div>
-    
-  </div>
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
 
     
-    <script src="/js/vendor-bundle.min.9592335d574f7a97010f99b90ad0f310.js"></script>
-
-    
-    
-    
-      
-      
-        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
-      
-
-      
-      
-
-      
-
-      
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
-        
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
-        
-      
-
-    
-
-    
-    
-    
-      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
-    
-
-    
-    
-
-    
-    
-    
-      
-      <script id="search-hit-fuse-template" type="text/x-template">
-        <div class="search-hit" id="summary-{{key}}">
-          <div class="search-hit-content">
-            <div class="search-hit-name">
-              <a href="{{relpermalink}}">{{title}}</a>
-              <div class="article-metadata search-hit-type">{{type}}</div>
-              <p class="search-hit-description">{{snippet}}</p>
-            </div>
-          </div>
-        </div>
-      </script>
-      
-        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
-      
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-      
-      
-      
-      
-      
-      
-      
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    
-    <script src="/en/js/wowchemy.min.eaa29d20323f1326d362bb44b75f0dbf.js"></script>
-
     
 
 
@@ -3527,5 +3926,10 @@ Among other things it can compute indecomposable projective lattices and basic a
 
 
 
-</body>
+
+
+
+
+
+  </body>
 </html>
