@@ -5,7 +5,7 @@
     <link>https://feisele.github.io/publication/</link>
       <atom:link href="https://feisele.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://feisele.github.io/media/icon_hu7729264130191091259.png</url>
       <title>Publications</title>
@@ -57,6 +57,22 @@
       <link>https://feisele.github.io/publication/reuctiontautilting/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://feisele.github.io/publication/reuctiontautilting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithmische Behandlung $p$-adischer ganzzahliger Gruppenringe</title>
+      <link>https://feisele.github.io/publication/diplom/</link>
+      <pubDate>Wed, 01 Oct 2008 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/diplom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Block pro-fusion systems for profinite groups and blocks with infinite dihedral defect groups</title>
+      <link>https://feisele.github.io/publication/profinite_fusion/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/profinite_fusion/</guid>
       <description></description>
     </item>
     
@@ -153,6 +169,14 @@
       <link>https://feisele.github.io/publication/lifting/</link>
       <pubDate>Sun, 15 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://feisele.github.io/publication/lifting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Group rings over the $p$-adic integers</title>
+      <link>https://feisele.github.io/publication/dissertation/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/dissertation/</guid>
       <description></description>
     </item>
     

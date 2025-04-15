@@ -61,6 +61,14 @@
     </item>
     
     <item>
+      <title>Algorithmische Behandlung $p$-adischer ganzzahliger Gruppenringe</title>
+      <link>https://feisele.github.io/publication/diplom/</link>
+      <pubDate>Wed, 01 Oct 2008 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/diplom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>https://feisele.github.io/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -79,6 +87,14 @@
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Block pro-fusion systems for profinite groups and blocks with infinite dihedral defect groups</title>
+      <link>https://feisele.github.io/publication/profinite_fusion/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/profinite_fusion/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -334,7 +350,7 @@
 
 
 
-&lt;div id=&#34;chart-587194263&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-213987456&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -352,7 +368,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-587194263&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-213987456&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1046,6 +1062,14 @@ Parallel 4   :         des6, after des4, 1d
       <link>https://feisele.github.io/publication/lifting/</link>
       <pubDate>Sun, 15 Apr 2012 00:00:00 +0000</pubDate>
       <guid>https://feisele.github.io/publication/lifting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Group rings over the $p$-adic integers</title>
+      <link>https://feisele.github.io/publication/dissertation/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/dissertation/</guid>
       <description></description>
     </item>
     

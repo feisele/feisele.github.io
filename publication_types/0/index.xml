@@ -5,7 +5,7 @@
     <link>https://feisele.github.io/publication_types/0/</link>
       <atom:link href="https://feisele.github.io/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://feisele.github.io/media/icon_hu7729264130191091259.png</url>
       <title>0</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Units in group rings and blocks of Klein four or dihedral defect</title>
-      <link>https://feisele.github.io/publication/zassenhaus_klein_four/</link>
-      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/zassenhaus_klein_four/</guid>
+      <title>Block pro-fusion systems for profinite groups and blocks with infinite dihedral defect groups</title>
+      <link>https://feisele.github.io/publication/profinite_fusion/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/profinite_fusion/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>A counterexample to a conjecture on Cartan determinants of monoid algebras</title>
-      <link>https://feisele.github.io/publication/monoid_counerexample/</link>
-      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/monoid_counerexample/</guid>
+      <title>Units in group rings and blocks of Klein four or dihedral defect</title>
+      <link>https://feisele.github.io/publication/zassenhaus_klein_four/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publication/zassenhaus_klein_four/</guid>
       <description></description>
     </item>
     
