@@ -5,138 +5,146 @@
     <link>https://feisele.github.io/publication_types/2/</link>
       <atom:link href="https://feisele.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://feisele.github.io/media/icon_hu7729264130191091259.png</url>
+      <url>https://feisele.github.io/media/icon_hu_cd51c91342a84ed6.png</url>
       <title>2</title>
       <link>https://feisele.github.io/publication_types/2/</link>
     </image>
     
     <item>
       <title>On the geometry of lattices and finiteness of Picard groups</title>
-      <link>https://feisele.github.io/publication/geometry_of_lattices/</link>
+      <link>https://feisele.github.io/publications/geometry_of_lattices/</link>
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/geometry_of_lattices/</guid>
+      <guid>https://feisele.github.io/publications/geometry_of_lattices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Picard group of an order and Külshammer reduction</title>
-      <link>https://feisele.github.io/publication/picard/</link>
+      <link>https://feisele.github.io/publications/picard/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/picard/</guid>
+      <guid>https://feisele.github.io/publications/picard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arbitrarily large Morita Frobenius numbers</title>
-      <link>https://feisele.github.io/publication/frobeniusnumbers/</link>
+      <link>https://feisele.github.io/publications/frobeniusnumbers/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/frobeniusnumbers/</guid>
+      <guid>https://feisele.github.io/publications/frobeniusnumbers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bijections of silting complexes and derived Picard groups</title>
-      <link>https://feisele.github.io/publication/silting_bijection/</link>
+      <link>https://feisele.github.io/publications/silting_bijection/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/silting_bijection/</guid>
+      <guid>https://feisele.github.io/publications/silting_bijection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On solvability of the first Hochschild cohomology of a finite-dimensional algebra</title>
-      <link>https://feisele.github.io/publication/hochschild_solv/</link>
+      <link>https://feisele.github.io/publications/hochschild_solv/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/hochschild_solv/</guid>
+      <guid>https://feisele.github.io/publications/hochschild_solv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A reduction theorem for $\tau$-rigid modules</title>
-      <link>https://feisele.github.io/publication/reuctiontautilting/</link>
+      <link>https://feisele.github.io/publications/reuctiontautilting/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/reuctiontautilting/</guid>
+      <guid>https://feisele.github.io/publications/reuctiontautilting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Units in group rings and blocks of Klein four or dihedral defect</title>
+      <link>https://feisele.github.io/publications/zassenhaus_klein_four/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://feisele.github.io/publications/zassenhaus_klein_four/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Units in Blocks of Defect 1 and the Zassenhaus Conjecture</title>
-      <link>https://feisele.github.io/publication/zassenhaus_cyclic_defect/</link>
+      <link>https://feisele.github.io/publications/zassenhaus_cyclic_defect/</link>
       <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/zassenhaus_cyclic_defect/</guid>
+      <guid>https://feisele.github.io/publications/zassenhaus_cyclic_defect/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Donovan&#39;s conjecture, blocks with abelian defect groups and discrete valuation rings</title>
-      <link>https://feisele.github.io/publication/donovan_ab_o/</link>
+      <link>https://feisele.github.io/publications/donovan_ab_o/</link>
       <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/donovan_ab_o/</guid>
+      <guid>https://feisele.github.io/publications/donovan_ab_o/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Counterexample to the First Zassenhaus Conjecture</title>
-      <link>https://feisele.github.io/publication/zassenhaus_counterx/</link>
+      <link>https://feisele.github.io/publications/zassenhaus_counterx/</link>
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/zassenhaus_counterx/</guid>
+      <guid>https://feisele.github.io/publications/zassenhaus_counterx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On Tate duality and a projective scalar property for symmetric algebras</title>
-      <link>https://feisele.github.io/publication/egkl/</link>
+      <link>https://feisele.github.io/publications/egkl/</link>
       <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/egkl/</guid>
+      <guid>https://feisele.github.io/publications/egkl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blocks with a generalized quaternion defect group and three simple modules over a 2-adic ring</title>
-      <link>https://feisele.github.io/publication/quaternion/</link>
+      <link>https://feisele.github.io/publications/quaternion/</link>
       <pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/quaternion/</guid>
+      <guid>https://feisele.github.io/publications/quaternion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Describing units of integral group rings up to commensurability</title>
-      <link>https://feisele.github.io/publication/units_commens/</link>
+      <link>https://feisele.github.io/publications/units_commens/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/units_commens/</guid>
+      <guid>https://feisele.github.io/publications/units_commens/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The $p$-adic group ring of ${\rm SL}_2(p^f)$</title>
-      <link>https://feisele.github.io/publication/sl2pf/</link>
+      <link>https://feisele.github.io/publications/sl2pf/</link>
       <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/sl2pf/</guid>
+      <guid>https://feisele.github.io/publications/sl2pf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Basic Orders for Defect Two Blocks of $\mathbb Z_p\Sigma_n$</title>
-      <link>https://feisele.github.io/publication/defecttwosn/</link>
+      <link>https://feisele.github.io/publications/defecttwosn/</link>
       <pubDate>Thu, 13 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/defecttwosn/</guid>
+      <guid>https://feisele.github.io/publications/defecttwosn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On the IYB-property in some solvable groups</title>
-      <link>https://feisele.github.io/publication/iyb/</link>
+      <link>https://feisele.github.io/publications/iyb/</link>
       <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/iyb/</guid>
+      <guid>https://feisele.github.io/publications/iyb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>$p$-Adic lifting problems and derived equivalences</title>
-      <link>https://feisele.github.io/publication/lifting/</link>
+      <link>https://feisele.github.io/publications/lifting/</link>
       <pubDate>Sun, 15 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/lifting/</guid>
+      <guid>https://feisele.github.io/publications/lifting/</guid>
       <description></description>
     </item>
     

@@ -1,13 +1,14 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 19, 2025 --><html lang="en-us" dir="ltr"
-      data-wc-theme-default="system">
+<!-- Last Published: October 14, 2026 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="dark"
+      data-hbb-relurl="/">
   
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.3.2" />
+  <meta name="generator" content="Hugo Blox Kit 0.12.0" />
 
   
   
@@ -19,29 +20,44 @@
 
 
 
+  
+
 
 
 
 
   
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+  
+  
+
+
+
+
+<meta name="author" content="Florian Eisele" />
+
   
   
   
   
     
-    
-    
   
   
-
-  <meta name="author" content="Florian Eisele" />
-
-  
-  
-  
-    
-  
-  <meta name="description" content="Florian Eisele" />
+  <meta name="description" content="Homepage" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://feisele.github.io/publication_types/2/" />
@@ -50,70 +66,830 @@
   
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     
-    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
+    
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
   
 
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
     
-    <link href="/dist/wc.min.05570f1deda629d4e2d77f73534a63aa04471f012db6735c59424372f467db85.css" rel="stylesheet" />
+    
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
   
 
-  
-  
-  
 
-  
 
-  <script>
+
+<style>
+   
      
-    window.hbb = {
-       defaultTheme: document.documentElement.dataset.wcThemeDefault,
-       setDarkTheme: () => {
-        document.documentElement.classList.add("dark");
-        document.documentElement.style.colorScheme = "dark";
-      },
-       setLightTheme: () => {
-        document.documentElement.classList.remove("dark");
-        document.documentElement.style.colorScheme = "light";
-      }
-    }
-
-    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
-
-    if ("wc-color-theme" in localStorage) {
-      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-    } else {
-      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-      if (window.hbb.defaultTheme === "system") {
-        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-      }
-    }
-  </script>
-
-  <script>
+  
+   
+  :root {
     
-    document.addEventListener('DOMContentLoaded', function () {
       
-      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
-      checkboxes.forEach(e => {
-        e.parentElement.parentElement.classList.add('task-list');
-      });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-primary-500-rgb: 9 105 218;
+  --color-primary-500: rgb(var(--hb-primary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-50-rgb: 242 247 253;
+    --color-primary-50: rgb(var(--hb-primary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-100-rgb: 230 240 251;
+    --color-primary-100: rgb(var(--hb-primary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-200-rgb: 205 225 247;
+    --color-primary-200: rgb(var(--hb-primary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-300-rgb: 181 210 243;
+    --color-primary-300: rgb(var(--hb-primary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-400-rgb: 156 195 240;
+    --color-primary-400: rgb(var(--hb-primary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-600-rgb: 8 94 196;
+    --color-primary-600: rgb(var(--hb-primary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-700-rgb: 7 84 174;
+    --color-primary-700: rgb(var(--hb-primary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-800-rgb: 5 68 141;
+    --color-primary-800: rgb(var(--hb-primary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-900-rgb: 4 52 109;
+    --color-primary-900: rgb(var(--hb-primary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-950-rgb: 2 31 65;
+    --color-primary-950: rgb(var(--hb-primary-950-rgb));
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-secondary-500-rgb: 31 136 61;
+  --color-secondary-500: rgb(var(--hb-secondary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-50-rgb: 243 249 245;
+    --color-secondary-50: rgb(var(--hb-secondary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-100-rgb: 232 243 235;
+    --color-secondary-100: rgb(var(--hb-secondary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-200-rgb: 210 231 216;
+    --color-secondary-200: rgb(var(--hb-secondary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-300-rgb: 187 219 196;
+    --color-secondary-300: rgb(var(--hb-secondary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-400-rgb: 165 207 177;
+    --color-secondary-400: rgb(var(--hb-secondary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-600-rgb: 27 122 54;
+    --color-secondary-600: rgb(var(--hb-secondary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-700-rgb: 24 108 48;
+    --color-secondary-700: rgb(var(--hb-secondary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-800-rgb: 20 88 39;
+    --color-secondary-800: rgb(var(--hb-secondary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-900-rgb: 15 68 30;
+    --color-secondary-900: rgb(var(--hb-secondary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-950-rgb: 9 40 18;
+    --color-secondary-950: rgb(var(--hb-secondary-950-rgb));
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-gray-500-rgb: 36 41 47;
+  --color-gray-500: rgb(var(--hb-gray-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-50-rgb: 244 244 244;
+    --color-gray-50: rgb(var(--hb-gray-50-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-100-rgb: 233 233 234;
+    --color-gray-100: rgb(var(--hb-gray-100-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-200-rgb: 211 212 213;
+    --color-gray-200: rgb(var(--hb-gray-200-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-300-rgb: 189 190 192;
+    --color-gray-300: rgb(var(--hb-gray-300-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-400-rgb: 167 169 171;
+    --color-gray-400: rgb(var(--hb-gray-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-600-rgb: 32 36 42;
+    --color-gray-600: rgb(var(--hb-gray-600-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-700-rgb: 28 32 37;
+    --color-gray-700: rgb(var(--hb-gray-700-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-800-rgb: 23 26 30;
+    --color-gray-800: rgb(var(--hb-gray-800-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-900-rgb: 18 20 23;
+    --color-gray-900: rgb(var(--hb-gray-900-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-950-rgb: 10 12 14;
+    --color-gray-950: rgb(var(--hb-gray-950-rgb));
+  
+
+
+
+
+
+
+--hb-color-background: #ffffff;
+--hb-color-foreground: #24292f;
+
+
+--hb-color-header-bg: #f6f8fa;
+--hb-color-header-fg: #24292f;
+
+
+--hb-color-footer-bg: #ffffff;
+--hb-color-footer-fg: #57606a;
+
+    
+  }
+
+   
+  .dark {
+    
       
-      const liNodes = document.querySelectorAll('.task-list li');
-      liNodes.forEach(nodes => {
-        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
-        if (textNodes.length > 0) {
-          const span = document.createElement('label');
-          textNodes[0].after(span);  
-          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
-          span.appendChild(textNodes[0]);
-        }
-      });
-    });
-  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-primary-500-rgb: 88 166 255;
+  --color-primary-500: rgb(var(--hb-primary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-50-rgb: 246 250 255;
+    --color-primary-50: rgb(var(--hb-primary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-100-rgb: 238 246 255;
+    --color-primary-100: rgb(var(--hb-primary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-200-rgb: 221 237 255;
+    --color-primary-200: rgb(var(--hb-primary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-300-rgb: 204 228 255;
+    --color-primary-300: rgb(var(--hb-primary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-400-rgb: 188 219 255;
+    --color-primary-400: rgb(var(--hb-primary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-600-rgb: 79 149 229;
+    --color-primary-600: rgb(var(--hb-primary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-700-rgb: 70 132 204;
+    --color-primary-700: rgb(var(--hb-primary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-800-rgb: 57 107 165;
+    --color-primary-800: rgb(var(--hb-primary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-900-rgb: 44 83 127;
+    --color-primary-900: rgb(var(--hb-primary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-950-rgb: 26 49 76;
+    --color-primary-950: rgb(var(--hb-primary-950-rgb));
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-secondary-500-rgb: 35 134 54;
+  --color-secondary-500: rgb(var(--hb-secondary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-50-rgb: 244 248 244;
+    --color-secondary-50: rgb(var(--hb-secondary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-100-rgb: 233 242 234;
+    --color-secondary-100: rgb(var(--hb-secondary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-200-rgb: 211 230 214;
+    --color-secondary-200: rgb(var(--hb-secondary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-300-rgb: 189 218 194;
+    --color-secondary-300: rgb(var(--hb-secondary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-400-rgb: 167 206 174;
+    --color-secondary-400: rgb(var(--hb-secondary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-600-rgb: 31 120 48;
+    --color-secondary-600: rgb(var(--hb-secondary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-700-rgb: 28 107 43;
+    --color-secondary-700: rgb(var(--hb-secondary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-800-rgb: 22 87 35;
+    --color-secondary-800: rgb(var(--hb-secondary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-900-rgb: 17 67 27;
+    --color-secondary-900: rgb(var(--hb-secondary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-950-rgb: 10 40 16;
+    --color-secondary-950: rgb(var(--hb-secondary-950-rgb));
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-gray-500-rgb: 201 209 217;
+  --color-gray-500: rgb(var(--hb-gray-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-50-rgb: 252 252 253;
+    --color-gray-50: rgb(var(--hb-gray-50-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-100-rgb: 249 250 251;
+    --color-gray-100: rgb(var(--hb-gray-100-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-200-rgb: 244 245 247;
+    --color-gray-200: rgb(var(--hb-gray-200-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-300-rgb: 238 241 243;
+    --color-gray-300: rgb(var(--hb-gray-300-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-400-rgb: 233 236 239;
+    --color-gray-400: rgb(var(--hb-gray-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-600-rgb: 180 188 195;
+    --color-gray-600: rgb(var(--hb-gray-600-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-700-rgb: 160 167 173;
+    --color-gray-700: rgb(var(--hb-gray-700-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-800-rgb: 130 135 141;
+    --color-gray-800: rgb(var(--hb-gray-800-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-900-rgb: 100 104 108;
+    --color-gray-900: rgb(var(--hb-gray-900-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-950-rgb: 60 62 65;
+    --color-gray-950: rgb(var(--hb-gray-950-rgb));
+  
+
+
+
+
+
+
+--hb-color-background: #0d1117;
+--hb-color-foreground: #c9d1d9;
+
+
+--hb-color-header-bg: #161b22;
+--hb-color-header-fg: #f0f6fc;
+
+
+--hb-color-footer-bg: #0d1117;
+--hb-color-footer-fg: #8b949e;
+
+    
+  }
+   
+</style>
+
+
+  
+  
+
+  
+  
+  
+    
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+  
+
+  
+  
+  
+    
+      
+        <link rel="stylesheet" href="/css/_entry.fc4f3eba7070e85453efacaf7ca9501562d966c29d015a2c15f62b598b4d7008.css" integrity="sha256-/E8&#43;unBw6FRT76yvfKlQFWLZZsKdAVosFfYrWYtNcAg=" crossorigin="anonymous">
+      
+    
+  
+
+
+  
+
+  
+
+  <script src="/js/hb-head.min.e9ff67ddf77122b225756bf5a926e24420bea2586199fddcb3b1813a009f4ee5.js" integrity="sha256-6f9n3fdxIrIldWv1qSbiRCC&#43;olhhmf3cs7GBOgCfTuU=" crossorigin="anonymous"></script>
 
   
   
@@ -154,25 +930,38 @@
 
 
 
+  
   
   
     <link rel="alternate" href="/publication_types/2/index.xml" type="application/rss+xml" title="Florian Eisele" />
   
 
   
-  <link rel="icon" type="image/png" href="/media/icon_hu3247630877640252165.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4166356570829923896.png" />
+  
+  
+    <link rel="icon" type="image/png" href="/media/icon_hu_5b5963f9a437ef2b.png" />
+  
+  
+  
+  
+    
+      <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_ae7acf3953fcb62a.png" />
+    
+  
 
   <link rel="canonical" href="https://feisele.github.io/publication_types/2/" />
 
   
   
   
+
   
   
   
-  
-  
+
+    
+    
+      
     
     
   
@@ -188,15 +977,181 @@
   <meta property="og:site_name" content="Florian Eisele" />
   <meta property="og:url" content="https://feisele.github.io/publication_types/2/" />
   <meta property="og:title" content="2 | Florian Eisele" />
-  <meta property="og:description" content="Florian Eisele" /><meta property="og:image" content="https://feisele.github.io/media/icon_hu7729264130191091259.png" />
-    <meta property="twitter:image" content="https://feisele.github.io/media/icon_hu7729264130191091259.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Homepage" /><meta property="og:image" content="https://feisele.github.io/media/icon_hu_cd51c91342a84ed6.png" />
+    <meta property="twitter:image" content="https://feisele.github.io/media/icon_hu_cd51c91342a84ed6.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2024-12-13T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2025-07-28T00:00:00&#43;00:00" />
     
   
 
   
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@id": "https://feisele.github.io/publication_types/2/",
+  "@type": "CollectionPage",
+  "dateModified": "2025-07-28T00:00:00Z",
+  "description": "Homepage",
+  "inLanguage": "en-us",
+  "isPartOf": {
+    "@id": "https://feisele.github.io/",
+    "@type": "WebSite",
+    "name": "Florian Eisele",
+    "url": "https://feisele.github.io/"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://feisele.github.io/publications/zassenhaus_klein_four/",
+          "@type": "WebPage",
+          "name": "Units in group rings and blocks of Klein four or dihedral defect",
+          "url": "https://feisele.github.io/publications/zassenhaus_klein_four/"
+        },
+        "position": 1
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://feisele.github.io/publications/zassenhaus_cyclic_defect/",
+          "@type": "WebPage",
+          "name": "Units in Blocks of Defect 1 and the Zassenhaus Conjecture",
+          "url": "https://feisele.github.io/publications/zassenhaus_cyclic_defect/"
+        },
+        "position": 2
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://feisele.github.io/publications/frobeniusnumbers/",
+          "@type": "WebPage",
+          "name": "Arbitrarily large Morita Frobenius numbers",
+          "url": "https://feisele.github.io/publications/frobeniusnumbers/"
+        },
+        "position": 3
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://feisele.github.io/publications/silting_bijection/",
+          "@type": "WebPage",
+          "name": "Bijections of silting complexes and derived Picard groups",
+          "url": "https://feisele.github.io/publications/silting_bijection/"
+        },
+        "position": 4
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://feisele.github.io/publications/geometry_of_lattices/",
+          "@type": "WebPage",
+          "name": "On the geometry of lattices and finiteness of Picard groups",
+          "url": "https://feisele.github.io/publications/geometry_of_lattices/"
+        },
+        "position": 5
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://feisele.github.io/publications/picard/",
+          "@type": "WebPage",
+          "name": "The Picard group of an order and Külshammer reduction",
+          "url": "https://feisele.github.io/publications/picard/"
+        },
+        "position": 6
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://feisele.github.io/publications/hochschild_solv/",
+          "@type": "WebPage",
+          "name": "On solvability of the first Hochschild cohomology of a finite-dimensional algebra",
+          "url": "https://feisele.github.io/publications/hochschild_solv/"
+        },
+        "position": 7
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://feisele.github.io/publications/donovan_ab_o/",
+          "@type": "WebPage",
+          "name": "Donovan's conjecture, blocks with abelian defect groups and discrete valuation rings",
+          "url": "https://feisele.github.io/publications/donovan_ab_o/"
+        },
+        "position": 8
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://feisele.github.io/publications/zassenhaus_counterx/",
+          "@type": "WebPage",
+          "name": "A Counterexample to the First Zassenhaus Conjecture",
+          "url": "https://feisele.github.io/publications/zassenhaus_counterx/"
+        },
+        "position": 9
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://feisele.github.io/publications/reuctiontautilting/",
+          "@type": "WebPage",
+          "name": "A reduction theorem for $\\tau$-rigid modules",
+          "url": "https://feisele.github.io/publications/reuctiontautilting/"
+        },
+        "position": 10
+      }
+    ],
+    "itemListOrder": "Descending",
+    "numberOfItems": 10
+  },
+  "name": "2",
+  "url": "https://feisele.github.io/publication_types/2/"
+}
+</script>
+
+
+
+  <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/",
+        "name": "Florian Eisele"
+      },
+      "name": "Florian Eisele",
+      "position": 1
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/publication_types/",
+        "name": "Publication_types"
+      },
+      "name": "Publication_types",
+      "position": 2
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/publication_types/2/",
+        "name": "2"
+      },
+      "name": "2",
+      "position": 3
+    }
+  ]
+}
+    </script>
+
+
 
 
 
@@ -205,318 +1160,11 @@
 
   
   
-  
-  
-  
-    
-    
-  
-  
-  <style>
-    @font-face {
-      font-family: 'Inter var';
-      font-style: normal;
-      font-weight: 100 900;
-      font-display: swap;
-      src: url(/dist/font/Inter.var.woff2) format(woff2);
-    }
-  </style>
-
-  
-
-  
-  
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
-  
-  
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
-  
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
 
 
 
@@ -533,136 +1181,83 @@
 
   
   
-  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.505d5f829022bb7b4f24dfee0aa1141cd7bba67afe411d1240335f820960b5c3.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr&#43;QR0SQDNfgglgtcM=" />
   
   
-  <script defer src="/dist/lib/katex/katex.min.dc84b296ec3e884de093158f760fd9d45b6c7abe58b5381557f4e138f46a58ae.js" integrity="sha256-3ISyluw&#43;iE3gkxWPdg/Z1Ftser5YtTgVV/ThOPRqWK4="></script>
-  
-  
-  
-  
-  <script defer src="/js/katex-renderer.6579ec9683211cfb952064aedf3a3baea5eeb17a061775b32b70917474637c80.js" integrity="sha256-ZXnsloMhHPuVIGSu3zo7rqXusXoGF3WzK3CRdHRjfIA="></script>
   
   
     
+    
+    
+    
+    
+      
+    
+    
+    
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+    
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+    
+      
+    
+  
+  
+
+  
+  
+    
+
+
+
+
   
     
   
-    
+
   
     
   
-    
+
   
     
   
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
+
   
 
 
@@ -671,16 +1266,819 @@
 
 
   
+    
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+        
+        
+        
+      
+    
+  
+
+  
+    
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+        
+        
+        
+      
+    
+  
+
+  
+    
+      
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      
+        
+        
+        
+      
+    
+  
+
+  
+
+
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@100..900&amp;family=Source&#43;Serif&#43;4:wght@100..900&amp;family=Source&#43;Code&#43;Pro:wght@400&amp;display=swap" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  :root {
+     
+    --hb-font-heading: 'Lora', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    --hb-font-body: 'Source Serif 4', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    --hb-font-code: 'Source Code Pro', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --hb-font-nav: 'Lora', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+
+     
+    --hb-font-weight-heading: 500;
+    --hb-font-weight-body: 400;
+    --hb-font-weight-body-bold: 600;
+
+     
+    --hb-font-leading-heading: 1.2;
+    --hb-font-leading-body: 1.7;
+    --hb-font-leading-code: 1.5;
+
+     
+    --hb-font-tracking-heading: 0;
+    --hb-font-tracking-body: 0;
+    --hb-font-tracking-caps: 0.05em;
+
+     
+    --hb-font-size-base: 1rem;
+    --hb-font-size-sm: 0.875rem;
+    --hb-font-size-lg: 1.125rem;
+
+     
+    --hb-font-family-sans: 'Source Serif 4', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  }
+</style>
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+
+<style>
+  :root {
+     
+    --hb-radius: 0.25rem;
+
+     
+    --hb-spacing-base: 0.75rem;
+    --hb-spacing-section: 2.5rem;
+  }
+</style>
+
+
+  
+
+  
+  
+
+
+
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
   
   
   
   
   
   
+  
+  
+  
+
   <script
     defer
-    src="/js/hugo-blox-en.min.47736f84e20cae1bb2224dc4605239689e913811575e32b5f86a700ee9d6529d.js"
-    integrity="sha256-R3NvhOIMrhuyIk3EYFI5aJ6ROBFXXjK1&#43;GpwDunWUp0="
+    src="/js/hugo-blox-en.min.50bf5376bbbd2aea9b2e03e195eeee2f0afad8e84589a94b0ee493111b4be271.js"
+    integrity="sha256-UL9Tdru9KuqbLgPhle7uLwr62OhFialLDuSTERtL4nE="
   ></script>
 
   
@@ -693,11 +2091,181 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.19095127357ed6d29fe0a63a6b000c913a89f7f1963b765dd3715e97c9852e75.css" integrity="sha256-GQlRJzV&#43;1tKf4KY6awAMkTqJ9/GWO3Zd03Fel8mFLnU=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.e8d885505949f3a5f4abdd5dd0d53696bd1371ad26ffbf4f310dcd77c8cdae89.js" integrity="sha256-6NiFUFlJ86X0q91d0NU2lr0Tca0m/79PMQ3Nd8jNrok="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.7bdcf3f3f669a04734c54d2fe7c91a2d07b44e4ec8f1ea72384893db11a740eb.js" integrity="sha256-e9zz8/ZpoEc0xU0v58kaLQe0Tk7I8epyOEiT2xGnQOs="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
   
     
       
-      <script async defer src="https://buttons.github.io/buttons.js"></script>
+        
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
 
+        
       
     
   
@@ -707,20 +2275,24 @@
 
 </head>
 
-  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+  <body class="bg-[var(--hb-color-background)] text-[var(--hb-color-foreground)] page-wrapper" id="top">
     <div id="page-bg"></div>
     <div class="page-header sticky top-0 z-30">
       
       
       
         
-        
-        
-          <header id="site-header" class="header">
-  <nav class="navbar px-3 flex justify-left">
-    <div class="order-0 h-100">
+          
+<header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-start">
+    <div class="order-0 h-full">
       
       <a class="navbar-brand" href="/" title="Florian Eisele">
+        
+        
+        
+        
+        
         Florian Eisele
       </a>
     </div>
@@ -728,7 +2300,7 @@
     <input id="nav-toggle" type="checkbox" class="hidden" />
     <label
       for="nav-toggle"
-      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      class="order-3 cursor-pointer flex items-center lg:hidden text-[var(--hb-color-header-fg)] lg:order-1">
       <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
         <title>Open Menu</title>
         <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
@@ -746,7 +2318,7 @@
     
     <ul
       id="nav-menu"
-      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-start
       ">
       
       
@@ -859,29 +2431,8 @@
 
       
       
-      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
-            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
-        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
-          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-               stroke-linejoin="round" class="dark:hidden">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-          </svg>
-          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-          </svg>
-        </button>
-      </div>
+
+      
       
 
       
@@ -898,6 +2449,7 @@
         
       
     </div>
+    
     <div class="page-body  my-10">
       
 
@@ -911,14 +2463,53 @@
 
 
 
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
 <div class="flex flex-col items-center">
 
-  <div class="container max-w-[65ch] mx-auto bg-white dark:bg-zinc-900 rounded-xl border-gray-100 dark:border-gray-700 border shadow-md overflow-hidden my-5">
+  <div class="container max-w-[65ch] mx-auto grid grid-cols-1 gap-6 my-5">
 
 
   
   
-  
 
 
 
@@ -927,22 +2518,7 @@
 
 
 
-<a href="/publication/zassenhaus_cyclic_defect/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Units in Blocks of Defect 1 and the Zassenhaus Conjecture</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">13 Dec 2024</p>
-    </div>
-  </div>
-</a>
 
-  
-  
 
 
 
@@ -951,227 +2527,2051 @@
 
 
 
-<a href="/publication/frobeniusnumbers/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Arbitrarily large Morita Frobenius numbers</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">1 Dec 2022</p>
-    </div>
-  </div>
-</a>
 
-  
-  
-
-
-
-
-
-
-
-
-<a href="/publication/silting_bijection/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Bijections of silting complexes and derived Picard groups</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">6 Apr 2022</p>
-    </div>
-  </div>
-</a>
-
-  
-  
-
-
-
-
-
-
-
-
-<a href="/publication/geometry_of_lattices/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">On the geometry of lattices and finiteness of Picard groups</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">12 Nov 2021</p>
-    </div>
-  </div>
-</a>
-
-  
-  
-
-
-
-
-
-
-
-
-<a href="/publication/picard/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">The Picard group of an order and Külshammer reduction</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">16 Mar 2020</p>
-    </div>
-  </div>
-</a>
-
-  
-  
-
-
-
-
-
-
-
-
-<a href="/publication/hochschild_solv/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">On solvability of the first Hochschild cohomology of a finite-dimensional algebra</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">12 Nov 2019</p>
-    </div>
-  </div>
-</a>
-
-  
-  
-
-
-
-
-
-
-
-
-<a href="/publication/donovan_ab_o/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Donovan&#39;s conjecture, blocks with abelian defect groups and discrete valuation rings</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">8 Jul 2019</p>
-    </div>
-  </div>
-</a>
-
-  
-  
-
-
-
-
-
-
-
-
-<a href="/publication/zassenhaus_counterx/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">A Counterexample to the First Zassenhaus Conjecture</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">6 Oct 2018</p>
-    </div>
-  </div>
-</a>
-
-  
-  
-
-
-
-
-
-
-
-
-<a href="/publication/reuctiontautilting/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">A reduction theorem for $\tau$-rigid modules</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">5 Jun 2018</p>
-    </div>
-  </div>
-</a>
-
-  
-  
-
-
-
-
-
-
-
-
-<a href="/publication/egkl/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
-      
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">On Tate duality and a projective scalar property for symmetric algebras</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        </p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">23 Nov 2017</p>
-    </div>
-  </div>
-</a>
-
-  
-
-  </div>
-
-
-  
-<nav class="mt-1">
-  <ul class="container mx-auto flex justify-center">
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-4fdf11eb5d8437193b9ca6e3f158b382">
     
-    
-    <li class="p-5"><a class="page-link" href="/publication_types/2/page/2/">Next &raquo;</a></li>
-    
-  </ul>
-</nav>
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/zassenhaus_klein_four/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
 
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-4fdf11eb5d8437193b9ca6e3f158b382" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/zassenhaus_klein_four/"  class="hover:underline">
+          Units in group rings and blocks of Klein four or dihedral defect
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2025-07-28">
+              Jul 28, 2025
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/zassenhaus_klein_four/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-c1cfc23b91de1ec9e6a4f1516448a00a">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/zassenhaus_cyclic_defect/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-c1cfc23b91de1ec9e6a4f1516448a00a" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/zassenhaus_cyclic_defect/"  class="hover:underline">
+          Units in Blocks of Defect 1 and the Zassenhaus Conjecture
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2024-12-13">
+              Dec 13, 2024
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/zassenhaus_cyclic_defect/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-618721d5bce16fbdb5a9ae18fe5af54a">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/frobeniusnumbers/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-618721d5bce16fbdb5a9ae18fe5af54a" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/frobeniusnumbers/"  class="hover:underline">
+          Arbitrarily large Morita Frobenius numbers
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2022-12-01">
+              Dec 1, 2022
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/frobeniusnumbers/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-666fc0890150b2f716e39411f4bba591">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/silting_bijection/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-666fc0890150b2f716e39411f4bba591" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/silting_bijection/"  class="hover:underline">
+          Bijections of silting complexes and derived Picard groups
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2022-04-06">
+              Apr 6, 2022
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/silting_bijection/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-34586994e9e089a687343d3b99e3ec52">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/geometry_of_lattices/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-34586994e9e089a687343d3b99e3ec52" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/geometry_of_lattices/"  class="hover:underline">
+          On the geometry of lattices and finiteness of Picard groups
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2021-11-12">
+              Nov 12, 2021
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/geometry_of_lattices/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-b4f88df5ad502267eec13ec9a61890f7">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/picard/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-b4f88df5ad502267eec13ec9a61890f7" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/picard/"  class="hover:underline">
+          The Picard group of an order and Külshammer reduction
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2020-03-16">
+              Mar 16, 2020
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/picard/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-fdcb657db6acae5b12bfa210a3fec24b">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/hochschild_solv/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-fdcb657db6acae5b12bfa210a3fec24b" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/hochschild_solv/"  class="hover:underline">
+          On solvability of the first Hochschild cohomology of a finite-dimensional algebra
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2019-11-12">
+              Nov 12, 2019
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/hochschild_solv/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-d3b2a8a8c44b19e2fb66fdde0a1e8809">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/donovan_ab_o/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-d3b2a8a8c44b19e2fb66fdde0a1e8809" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/donovan_ab_o/"  class="hover:underline">
+          Donovan&#39;s conjecture, blocks with abelian defect groups and discrete valuation rings
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                <div class="w-6 h-6 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center">
+                  <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 6a3.75 3.75 0 1 1-7.5 0a3.75 3.75 0 0 1 7.5 0M4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.9 17.9 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632"/></svg>
+                </div>
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">charles-w.-eaton</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2019-07-08">
+              Jul 8, 2019
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/donovan_ab_o/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-7e3efc3b9ba2beb454af1e3a302df290">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/zassenhaus_counterx/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-7e3efc3b9ba2beb454af1e3a302df290" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/zassenhaus_counterx/"  class="hover:underline">
+          A Counterexample to the First Zassenhaus Conjecture
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2018-10-06">
+              Oct 6, 2018
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/zassenhaus_counterx/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-1546af61c2e30c1a562bd8bd1de0ec39">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/reuctiontautilting/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-1546af61c2e30c1a562bd8bd1de0ec39" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/reuctiontautilting/"  class="hover:underline">
+          A reduction theorem for $\tau$-rigid modules
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2018-06-05">
+              Jun 5, 2018
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/reuctiontautilting/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-08d84a8cd62cfe67241fcc2b471b4581">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/egkl/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-08d84a8cd62cfe67241fcc2b471b4581" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/egkl/"  class="hover:underline">
+          On Tate duality and a projective scalar property for symmetric algebras
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2017-11-23">
+              Nov 23, 2017
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/egkl/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-85cb28ac6b6c88c9f277ad6e37692aa9">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/quaternion/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-85cb28ac6b6c88c9f277ad6e37692aa9" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/quaternion/"  class="hover:underline">
+          Blocks with a generalized quaternion defect group and three simple modules over a 2-adic ring
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2016-06-15">
+              Jun 15, 2016
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/quaternion/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-7cb8f35026b414f5e8e1d64363ee6b69">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/units_commens/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-7cb8f35026b414f5e8e1d64363ee6b69" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/units_commens/"  class="hover:underline">
+          Describing units of integral group rings up to commensurability
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2015-06-01">
+              Jun 1, 2015
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/units_commens/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-c0ed14e8b843c22b7252364ff909c344">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/sl2pf/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-c0ed14e8b843c22b7252364ff909c344" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/sl2pf/"  class="hover:underline">
+          The $p$-adic group ring of ${\rm SL}_2(p^f)$
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2014-07-15">
+              Jul 15, 2014
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/sl2pf/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-c6f2399c4712fd9b2de3ccbe594e2af9">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/defecttwosn/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-c6f2399c4712fd9b2de3ccbe594e2af9" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/defecttwosn/"  class="hover:underline">
+          Basic Orders for Defect Two Blocks of $\mathbb Z_p\Sigma_n$
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2014-03-13">
+              Mar 13, 2014
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/defecttwosn/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-cb788da360358062f288fca989d945a1">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/iyb/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-cb788da360358062f288fca989d945a1" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/iyb/"  class="hover:underline">
+          On the IYB-property in some solvable groups
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2013-10-03">
+              Oct 3, 2013
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/iyb/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-3cead1cde12776784c4f86ec61043c35">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
+      
+      
+      
+        
+      
+      
+        
+        <a href="/publications/lifting/"  class="block w-full h-full">
+          <div class="w-full h-full bg-gradient-to-br from-primary-600/40 via-secondary-600/30 to-primary-800/50 flex items-center justify-center transition-all duration-300 group-hover:from-primary-500/50 group-hover:via-secondary-500/40 group-hover:to-primary-700/60">
+            <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white/40" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+
+      <h3 id="card-title-3cead1cde12776784c4f86ec61043c35" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/lifting/"  class="hover:underline">
+          $p$-Adic lifting problems and derived equivalences
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        
+      </p>
+
+      
+
+      
+      
+      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ece2e24b77b12d9c.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Florian Eisele</span>
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2012-04-15">
+              Apr 15, 2012
+            </time>
+            
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
+          
+        </div>
+        
+        
+        
+        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+          <a href="/publications/lifting/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+        
+      </div>
+      
+      
+      
+      
+    </div>
+</div>
+  
+
+  </div>
+
+
+  
 
 
 </div>
@@ -1190,6 +4590,8 @@
 
 
 
+  
+
 
 
 
@@ -1197,45 +4599,74 @@
   
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
-  <p class="powered-by text-center">
-    © 2025 Florian Eisele.
-  </p>
-  
-
-
-
-
-
-  <p class="powered-by text-center">
     
     
+      
+      
+        
+        
+      
     
+
+    <p class="powered-by text-center text-sm opacity-80 py-1">
       
       
       
       
       
+        
       
-      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
+      
+      
+      
+      
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Kit</a>.
+      <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
+         href="https://hugo.chat?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv&amp;template_id=academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
+    </p>  
 
 </footer>
 
@@ -1245,6 +4676,11 @@
     
 
 
+<div id="hb-notification-container" class="fixed top-20 right-4 z-[9999] pointer-events-none" aria-live="polite" aria-atomic="true"></div>
+
+
+    
+    
 
 
 
@@ -1253,6 +4689,13 @@
 
 
 
+  
 
+
+
+
+
+    
+    
   </body>
 </html>

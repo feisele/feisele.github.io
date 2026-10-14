@@ -1,0 +1,3424 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: October 14, 2026 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="dark"
+      data-hbb-relurl="/">
+  
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Kit 0.12.0" />
+
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+  
+  
+
+
+
+
+<meta name="author" content="Florian Eisele" />
+
+  
+  
+  
+  
+  
+  <meta name="description" content="Easily embed audio and video media in Hugo sites" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://feisele.github.io/courses/hugo-blox/guide/formatting/media/" />
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+  
+
+
+
+
+<style>
+   
+     
+  
+   
+  :root {
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-primary-500-rgb: 9 105 218;
+  --color-primary-500: rgb(var(--hb-primary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-50-rgb: 242 247 253;
+    --color-primary-50: rgb(var(--hb-primary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-100-rgb: 230 240 251;
+    --color-primary-100: rgb(var(--hb-primary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-200-rgb: 205 225 247;
+    --color-primary-200: rgb(var(--hb-primary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-300-rgb: 181 210 243;
+    --color-primary-300: rgb(var(--hb-primary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-400-rgb: 156 195 240;
+    --color-primary-400: rgb(var(--hb-primary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-600-rgb: 8 94 196;
+    --color-primary-600: rgb(var(--hb-primary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-700-rgb: 7 84 174;
+    --color-primary-700: rgb(var(--hb-primary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-800-rgb: 5 68 141;
+    --color-primary-800: rgb(var(--hb-primary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-900-rgb: 4 52 109;
+    --color-primary-900: rgb(var(--hb-primary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-950-rgb: 2 31 65;
+    --color-primary-950: rgb(var(--hb-primary-950-rgb));
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-secondary-500-rgb: 31 136 61;
+  --color-secondary-500: rgb(var(--hb-secondary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-50-rgb: 243 249 245;
+    --color-secondary-50: rgb(var(--hb-secondary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-100-rgb: 232 243 235;
+    --color-secondary-100: rgb(var(--hb-secondary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-200-rgb: 210 231 216;
+    --color-secondary-200: rgb(var(--hb-secondary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-300-rgb: 187 219 196;
+    --color-secondary-300: rgb(var(--hb-secondary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-400-rgb: 165 207 177;
+    --color-secondary-400: rgb(var(--hb-secondary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-600-rgb: 27 122 54;
+    --color-secondary-600: rgb(var(--hb-secondary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-700-rgb: 24 108 48;
+    --color-secondary-700: rgb(var(--hb-secondary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-800-rgb: 20 88 39;
+    --color-secondary-800: rgb(var(--hb-secondary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-900-rgb: 15 68 30;
+    --color-secondary-900: rgb(var(--hb-secondary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-950-rgb: 9 40 18;
+    --color-secondary-950: rgb(var(--hb-secondary-950-rgb));
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-gray-500-rgb: 36 41 47;
+  --color-gray-500: rgb(var(--hb-gray-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-50-rgb: 244 244 244;
+    --color-gray-50: rgb(var(--hb-gray-50-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-100-rgb: 233 233 234;
+    --color-gray-100: rgb(var(--hb-gray-100-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-200-rgb: 211 212 213;
+    --color-gray-200: rgb(var(--hb-gray-200-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-300-rgb: 189 190 192;
+    --color-gray-300: rgb(var(--hb-gray-300-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-400-rgb: 167 169 171;
+    --color-gray-400: rgb(var(--hb-gray-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-600-rgb: 32 36 42;
+    --color-gray-600: rgb(var(--hb-gray-600-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-700-rgb: 28 32 37;
+    --color-gray-700: rgb(var(--hb-gray-700-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-800-rgb: 23 26 30;
+    --color-gray-800: rgb(var(--hb-gray-800-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-900-rgb: 18 20 23;
+    --color-gray-900: rgb(var(--hb-gray-900-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-950-rgb: 10 12 14;
+    --color-gray-950: rgb(var(--hb-gray-950-rgb));
+  
+
+
+
+
+
+
+--hb-color-background: #ffffff;
+--hb-color-foreground: #24292f;
+
+
+--hb-color-header-bg: #f6f8fa;
+--hb-color-header-fg: #24292f;
+
+
+--hb-color-footer-bg: #ffffff;
+--hb-color-footer-fg: #57606a;
+
+    
+  }
+
+   
+  .dark {
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-primary-500-rgb: 88 166 255;
+  --color-primary-500: rgb(var(--hb-primary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-50-rgb: 246 250 255;
+    --color-primary-50: rgb(var(--hb-primary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-100-rgb: 238 246 255;
+    --color-primary-100: rgb(var(--hb-primary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-200-rgb: 221 237 255;
+    --color-primary-200: rgb(var(--hb-primary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-300-rgb: 204 228 255;
+    --color-primary-300: rgb(var(--hb-primary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-400-rgb: 188 219 255;
+    --color-primary-400: rgb(var(--hb-primary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-600-rgb: 79 149 229;
+    --color-primary-600: rgb(var(--hb-primary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-700-rgb: 70 132 204;
+    --color-primary-700: rgb(var(--hb-primary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-800-rgb: 57 107 165;
+    --color-primary-800: rgb(var(--hb-primary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-900-rgb: 44 83 127;
+    --color-primary-900: rgb(var(--hb-primary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-950-rgb: 26 49 76;
+    --color-primary-950: rgb(var(--hb-primary-950-rgb));
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-secondary-500-rgb: 35 134 54;
+  --color-secondary-500: rgb(var(--hb-secondary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-50-rgb: 244 248 244;
+    --color-secondary-50: rgb(var(--hb-secondary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-100-rgb: 233 242 234;
+    --color-secondary-100: rgb(var(--hb-secondary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-200-rgb: 211 230 214;
+    --color-secondary-200: rgb(var(--hb-secondary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-300-rgb: 189 218 194;
+    --color-secondary-300: rgb(var(--hb-secondary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-400-rgb: 167 206 174;
+    --color-secondary-400: rgb(var(--hb-secondary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-600-rgb: 31 120 48;
+    --color-secondary-600: rgb(var(--hb-secondary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-700-rgb: 28 107 43;
+    --color-secondary-700: rgb(var(--hb-secondary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-800-rgb: 22 87 35;
+    --color-secondary-800: rgb(var(--hb-secondary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-900-rgb: 17 67 27;
+    --color-secondary-900: rgb(var(--hb-secondary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-950-rgb: 10 40 16;
+    --color-secondary-950: rgb(var(--hb-secondary-950-rgb));
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-gray-500-rgb: 201 209 217;
+  --color-gray-500: rgb(var(--hb-gray-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-50-rgb: 252 252 253;
+    --color-gray-50: rgb(var(--hb-gray-50-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-100-rgb: 249 250 251;
+    --color-gray-100: rgb(var(--hb-gray-100-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-200-rgb: 244 245 247;
+    --color-gray-200: rgb(var(--hb-gray-200-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-300-rgb: 238 241 243;
+    --color-gray-300: rgb(var(--hb-gray-300-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-400-rgb: 233 236 239;
+    --color-gray-400: rgb(var(--hb-gray-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-600-rgb: 180 188 195;
+    --color-gray-600: rgb(var(--hb-gray-600-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-700-rgb: 160 167 173;
+    --color-gray-700: rgb(var(--hb-gray-700-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-800-rgb: 130 135 141;
+    --color-gray-800: rgb(var(--hb-gray-800-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-900-rgb: 100 104 108;
+    --color-gray-900: rgb(var(--hb-gray-900-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-950-rgb: 60 62 65;
+    --color-gray-950: rgb(var(--hb-gray-950-rgb));
+  
+
+
+
+
+
+
+--hb-color-background: #0d1117;
+--hb-color-foreground: #c9d1d9;
+
+
+--hb-color-header-bg: #161b22;
+--hb-color-header-fg: #f0f6fc;
+
+
+--hb-color-footer-bg: #0d1117;
+--hb-color-footer-fg: #8b949e;
+
+    
+  }
+   
+</style>
+
+
+  
+  
+
+  
+  
+  
+    
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+  
+
+  
+  
+  
+    
+      
+        <link rel="stylesheet" href="/css/_entry.fc4f3eba7070e85453efacaf7ca9501562d966c29d015a2c15f62b598b4d7008.css" integrity="sha256-/E8&#43;unBw6FRT76yvfKlQFWLZZsKdAVosFfYrWYtNcAg=" crossorigin="anonymous">
+      
+    
+  
+
+
+  
+
+  
+
+  <script src="/js/hb-head.min.e9ff67ddf77122b225756bf5a926e24420bea2586199fddcb3b1813a009f4ee5.js" integrity="sha256-6f9n3fdxIrIldWv1qSbiRCC&#43;olhhmf3cs7GBOgCfTuU=" crossorigin="anonymous"></script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+    <link rel="icon" type="image/png" href="/media/icon_hu_5b5963f9a437ef2b.png" />
+  
+  
+  
+  
+    
+      <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_ae7acf3953fcb62a.png" />
+    
+  
+
+  <link rel="canonical" href="https://feisele.github.io/courses/hugo-blox/guide/formatting/media/" />
+
+  
+  
+  
+
+  
+  
+  
+
+    
+    
+      
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Florian Eisele" />
+  <meta property="og:url" content="https://feisele.github.io/courses/hugo-blox/guide/formatting/media/" />
+  <meta property="og:title" content="Embed Media | Florian Eisele" />
+  <meta property="og:description" content="Easily embed audio and video media in Hugo sites" /><meta property="og:image" content="https://feisele.github.io/media/icon_hu_cd51c91342a84ed6.png" />
+    <meta property="twitter:image" content="https://feisele.github.io/media/icon_hu_cd51c91342a84ed6.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2023-10-24T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2023-10-24T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+  
+
+  
+  
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@id": "https://feisele.github.io/courses/hugo-blox/guide/formatting/media/",
+  "@type": "WebPage",
+  "dateModified": "2023-10-24T00:00:00Z",
+  "datePublished": "2023-10-24T00:00:00Z",
+  "description": "Easily embed audio and video media in Hugo sites",
+  "inLanguage": "en-us",
+  "isPartOf": {
+    "@id": "https://feisele.github.io/",
+    "@type": "WebSite",
+    "name": "Florian Eisele",
+    "url": "https://feisele.github.io/"
+  },
+  "name": "Embed Media",
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": null
+  },
+  "url": "https://feisele.github.io/courses/hugo-blox/guide/formatting/media/"
+}
+</script>
+
+
+
+  <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/",
+        "name": "Florian Eisele"
+      },
+      "name": "Florian Eisele",
+      "position": 1
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/courses/",
+        "name": "Courses"
+      },
+      "name": "Courses",
+      "position": 2
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/courses/hugo-blox/",
+        "name": "Hugo Blox"
+      },
+      "name": "Hugo Blox",
+      "position": 3
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/courses/hugo-blox/guide/",
+        "name": "Guide"
+      },
+      "name": "Guide",
+      "position": 4
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/courses/hugo-blox/guide/formatting/",
+        "name": "Formatting"
+      },
+      "name": "Formatting",
+      "position": 5
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/courses/hugo-blox/guide/formatting/media/",
+        "name": "Embed Media"
+      },
+      "name": "Embed Media",
+      "position": 6
+    }
+  ]
+}
+    </script>
+
+
+
+
+
+
+  <title>Embed Media | Florian Eisele</title>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+    
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+    
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+    
+      
+    
+  
+  
+
+  
+  
+    
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+
+
+
+
+
+  
+    
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+        
+        
+        
+      
+    
+  
+
+  
+    
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+        
+        
+        
+      
+    
+  
+
+  
+    
+      
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      
+        
+        
+        
+      
+    
+  
+
+  
+
+
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@100..900&amp;family=Source&#43;Serif&#43;4:wght@100..900&amp;family=Source&#43;Code&#43;Pro:wght@400&amp;display=swap" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  :root {
+     
+    --hb-font-heading: 'Lora', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    --hb-font-body: 'Source Serif 4', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    --hb-font-code: 'Source Code Pro', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --hb-font-nav: 'Lora', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+
+     
+    --hb-font-weight-heading: 500;
+    --hb-font-weight-body: 400;
+    --hb-font-weight-body-bold: 600;
+
+     
+    --hb-font-leading-heading: 1.2;
+    --hb-font-leading-body: 1.7;
+    --hb-font-leading-code: 1.5;
+
+     
+    --hb-font-tracking-heading: 0;
+    --hb-font-tracking-body: 0;
+    --hb-font-tracking-caps: 0.05em;
+
+     
+    --hb-font-size-base: 1rem;
+    --hb-font-size-sm: 0.875rem;
+    --hb-font-size-lg: 1.125rem;
+
+     
+    --hb-font-family-sans: 'Source Serif 4', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  }
+</style>
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+
+<style>
+  :root {
+     
+    --hb-radius: 0.25rem;
+
+     
+    --hb-spacing-base: 0.75rem;
+    --hb-spacing-section: 2.5rem;
+  }
+</style>
+
+
+  
+
+  
+  
+
+
+
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <script
+    defer
+    src="/js/hugo-blox-en.min.50bf5376bbbd2aea9b2e03e195eeee2f0afad8e84589a94b0ee493111b4be271.js"
+    integrity="sha256-UL9Tdru9KuqbLgPhle7uLwr62OhFialLDuSTERtL4nE="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.19095127357ed6d29fe0a63a6b000c913a89f7f1963b765dd3715e97c9852e75.css" integrity="sha256-GQlRJzV&#43;1tKf4KY6awAMkTqJ9/GWO3Zd03Fel8mFLnU=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.e8d885505949f3a5f4abdd5dd0d53696bd1371ad26ffbf4f310dcd77c8cdae89.js" integrity="sha256-6NiFUFlJ86X0q91d0NU2lr0Tca0m/79PMQ3Nd8jNrok="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.7bdcf3f3f669a04734c54d2fe7c91a2d07b44e4ec8f1ea72384893db11a740eb.js" integrity="sha256-e9zz8/ZpoEc0xU0v58kaLQe0Tk7I8epyOEiT2xGnQOs="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+        
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+        
+      
+    
+  
+
+
+
+
+</head>
+
+  <body class="bg-[var(--hb-color-background)] text-[var(--hb-color-foreground)] page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+          
+<header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-start">
+    <div class="order-0 h-full">
+      
+      <a class="navbar-brand" href="/" title="Florian Eisele">
+        
+        
+        
+        
+        
+        Florian Eisele
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-[var(--hb-color-header-fg)] lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-start
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/"
+        >About</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#preprints"
+        >Preprints</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#publications"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#theses"
+        >Theses &amp; Notes</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#code"
+        >Code</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#misc"
+        >Misc</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#contact"
+        >Contact</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+
+        
+      
+    </div>
+    
+    <div class="page-body  my-10">
+      <div class="mx-auto flex max-w-screen-xl">
+  
+
+  
+  <div class="hb-sidebar-mobile-menu fixed inset-0 z-10 bg-white dark:bg-black/80 hidden"></div>
+
+
+
+<aside class="hb-sidebar-container max-lg:[transform:translate3d(0,-100%,0)] lg:sticky">
+  
+  <div class="px-4 pt-4 lg:hidden">
+    
+    
+  </div>
+  <div class="hb-scrollbar lg:h-[calc(100vh-var(--navbar-height))]">
+    <ul class="flex flex-col gap-1 lg:hidden">
+      
+      
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/"
+    
+  >Publications
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/geometry_of_lattices/"
+    
+  >On the geometry of lattices and finiteness of Picard groups
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/picard/"
+    
+  >The Picard group of an order and Külshammer reduction
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/frobeniusnumbers/"
+    
+  >Arbitrarily large Morita Frobenius numbers
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/silting_bijection/"
+    
+  >Bijections of silting complexes and derived Picard groups
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/hochschild_solv/"
+    
+  >On solvability of the first Hochschild cohomology of a finite-dimensional algebra
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/reuctiontautilting/"
+    
+  >A reduction theorem for $\tau$-rigid modules
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/diplom/"
+    
+  >Algorithmische Behandlung $p$-adischer ganzzahliger Gruppenringe
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/profinite_donovan/"
+    
+  >Finiteness properties of profinite blocks and blocks with defect group $\mathbb Z_p^n$
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/quaternion_donovan/"
+    
+  >On 2-blocks with quaternion defect groups
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/zassenhaus_klein_four/"
+    
+  >Units in group rings and blocks of Klein four or dihedral defect
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/profinite_fusion/"
+    
+  >Block pro-fusion systems for profinite groups and blocks with infinite dihedral defect groups
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/zassenhaus_cyclic_defect/"
+    
+  >Units in Blocks of Defect 1 and the Zassenhaus Conjecture
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/monoid_counerexample/"
+    
+  >A counterexample to a conjecture on Cartan determinants of monoid algebras
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/donovan_ab_o/"
+    
+  >Donovan&#39;s conjecture, blocks with abelian defect groups and discrete valuation rings
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/zassenhaus_counterx/"
+    
+  >A Counterexample to the First Zassenhaus Conjecture
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/egkl/"
+    
+  >On Tate duality and a projective scalar property for symmetric algebras
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/quaternion/"
+    
+  >Blocks with a generalized quaternion defect group and three simple modules over a 2-adic ring
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/units_commens/"
+    
+  >Describing units of integral group rings up to commensurability
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/sl2pf/"
+    
+  >The $p$-adic group ring of ${\rm SL}_2(p^f)$
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/defecttwosn/"
+    
+  >Basic Orders for Defect Two Blocks of $\mathbb Z_p\Sigma_n$
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/iyb/"
+    
+  >On the IYB-property in some solvable groups
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/lifting/"
+    
+  >$p$-Adic lifting problems and derived equivalences
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/publications/dissertation/"
+    
+  >Group rings over the $p$-adic integers
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class="open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/"
+    
+  >Courses
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/"
+    
+  >Hugo Blox
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/getting-started/"
+    
+  >Getting Started
+    </a>
+              
+            </li><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/"
+    
+  >Guide
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/project-structure/"
+    
+  >Project Structure
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/configuration/"
+    
+  >Configuration
+    </a>
+              
+            </li><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/formatting/"
+    
+  >Formatting
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              
+            </li></ul>
+      </div>
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/reference/"
+    
+  >Reference
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/reference/customization/"
+    
+  >Customization
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/reference/i18n/"
+    
+  >Internationalization (i18n)
+    </a>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div>
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/"
+    
+  >Blog
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/notebook-onboarding/"
+    
+  >⚡️ Turn Jupyter Notebooks into Blog Posts
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/get-started/"
+    
+  >🎉 Easily create your own simple yet highly customizable blog
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/second-brain/"
+    
+  >🧠 Sharpen your thinking with a second brain
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/data-visualization/"
+    
+  >📈 Communicate your results effectively with the best data visualizations
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/teach-courses/"
+    
+  >👩🏼‍🏫 Teach academic courses
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/project-management/"
+    
+  >✅ Manage your projects
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/projects/"
+    
+  >Projects
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/projects/pandas/"
+    
+  >Pandas
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/projects/pytorch/"
+    
+  >PyTorch
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/projects/scikit/"
+    
+  >scikit-learn
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/slides/"
+    
+  >Slides
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/slides/example/"
+    
+  >Example Talk: Recent Work
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/experience/"
+    
+  >Experience
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/events/"
+    
+  >Recent &amp; Upcoming Talks
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/events/example/"
+    
+  >Create Beautiful Presentations with Markdown
+    </a>
+              
+            </li></ul>
+      </div></li>
+    </ul>
+
+    <ul class="flex flex-col gap-1 max-lg:hidden">
+        
+        <li class="open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/"
+    
+  >Hugo Blox
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/getting-started/"
+    
+  >Getting Started
+    </a>
+              
+            </li><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/"
+    
+  >Guide
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/project-structure/"
+    
+  >Project Structure
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/configuration/"
+    
+  >Configuration
+    </a>
+              
+            </li><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/formatting/"
+    
+  >Formatting
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+    href="/courses/hugo-blox/guide/formatting/media/"
+    
+  >Embed Media
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/formatting/button/"
+    
+  >Buttons
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/formatting/callout/"
+    
+  >Callouts
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/formatting/cards/"
+    
+  >Cards
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/formatting/toggle/"
+    
+  >Spoilers
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/guide/formatting/steps/"
+    
+  >Steps
+    </a>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div>
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/reference/"
+    
+  >Reference
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/reference/customization/"
+    
+  >Customization
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/courses/hugo-blox/reference/i18n/"
+    
+  >Internationalization (i18n)
+    </a>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div></li>
+        
+      </ul>
+    </div>
+
+</aside>
+  
+
+<nav class="hb-toc order-last hidden w-64 shrink-0 xl:block print:hidden px-4" aria-label="table of contents">
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4"><p class="mb-4 font-semibold tracking-tight">On this page</p><ul>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#video">Video</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#podcast">Podcast</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#test-students">Test students</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#math">Math</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#code">Code</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#inline-images">Inline Images</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌</a>
+      </li></ul>
+
+  
+  
+    
+    
+  
+
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  </div>
+  </nav>
+
+
+  <article class="flex w-full min-w-0 min-h-[calc(100vh-var(--navbar-height))] justify-center break-words pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="prose prose-slate lg:prose-xl dark:prose-invert w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+      
+      <div class="mb-1">
+        <div class="mt-1.5 flex items-center gap-1 overflow-hidden text-sm text-gray-500 dark:text-gray-400">
+      <div class="whitespace-nowrap transition-colors min-w-[24px] overflow-hidden text-ellipsis hover:text-gray-900 dark:hover:text-gray-100">
+        <a href="https://feisele.github.io/courses/">Courses</a>
+      </div><svg class="w-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.25 4.5l7.5 7.5l-7.5 7.5"/></svg>
+      <div class="whitespace-nowrap transition-colors min-w-[24px] overflow-hidden text-ellipsis hover:text-gray-900 dark:hover:text-gray-100">
+        <a href="https://feisele.github.io/courses/hugo-blox/">Hugo Blox</a>
+      </div><svg class="w-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.25 4.5l7.5 7.5l-7.5 7.5"/></svg>
+      <div class="whitespace-nowrap transition-colors min-w-[24px] overflow-hidden text-ellipsis hover:text-gray-900 dark:hover:text-gray-100">
+        <a href="https://feisele.github.io/courses/hugo-blox/guide/">Guide</a>
+      </div><svg class="w-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.25 4.5l7.5 7.5l-7.5 7.5"/></svg>
+      <div class="whitespace-nowrap transition-colors min-w-[24px] overflow-hidden text-ellipsis hover:text-gray-900 dark:hover:text-gray-100">
+        <a href="https://feisele.github.io/courses/hugo-blox/guide/formatting/">Formatting</a>
+      </div><svg class="w-3.5 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.25 4.5l7.5 7.5l-7.5 7.5"/></svg><div class="whitespace-nowrap font-medium text-gray-700 dark:text-gray-100">Embed Media</div>
+</div>
+
+      </div>
+      
+
+      
+      <div class="content" data-pagefind-body>
+        <h1 data-pagefind-meta="title">Embed Media</h1>
+        <p><a href="https://hugoblox.com" target="_blank" rel="noopener">HugoBlox Kit</a> is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.</p>
+<p><strong>Embed videos, podcasts, code, LaTeX math, and even test students!</strong></p>
+<p>On this page, you&rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.</p>
+<h2 id="video">Video</h2>
+<p>Teach your course by sharing videos with your students. Choose from one of the following approaches:</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p><strong>Youtube</strong>:</p>
+<pre><code>{{&lt; youtube w7Ft2ymGmfc &gt;}}
+</code></pre>
+<p><strong>Bilibili</strong>:</p>
+<pre><code>{{&lt; bilibili id=&quot;BV1WV4y1r7DF&quot; &gt;}}
+</code></pre>
+<p><strong>Video file</strong></p>
+<p>Videos may be added to a page by either placing them in your <code>assets/media/</code> media library or in your <a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener">page&rsquo;s folder</a>, and then embedding them with the <em>video</em> shortcode:</p>
+<pre><code>{{&lt; video src=&quot;my_video.mp4&quot; controls=&quot;yes&quot; &gt;}}
+</code></pre>
+<h2 id="podcast">Podcast</h2>
+<p>You can add a podcast or music to a page by placing the MP3 file in the page&rsquo;s folder or the media library folder and then embedding the audio on your page with the <em>audio</em> shortcode:</p>
+<pre><code>{{&lt; audio src=&quot;ambient-piano.mp3&quot; &gt;}}
+</code></pre>
+<p>Try it out:</p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<audio controls >
+  <source src="ambient-piano.mp3" type="audio/mpeg">
+</audio>
+
+<h2 id="test-students">Test students</h2>
+<p>Provide a simple yet fun self-assessment by revealing the solutions to challenges with the <code>spoiler</code> shortcode:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{&lt; spoiler text=&#34;👉 Click to view the solution&#34; &gt;}}
+</span></span><span class="line"><span class="cl">You found me!
+</span></span><span class="line"><span class="cl">{{&lt; /spoiler &gt;}}
+</span></span></code></pre></div><p>renders as</p>
+<details class="spoiler "  id="spoiler-2">
+  <summary class="cursor-pointer">👉 Click to view the solution</summary>
+  <div class="rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2">
+    You found me 🎉
+  </div>
+</details>
+<h2 id="math">Math</h2>
+<p>HugoBlox Kit supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the <code>math</code> option in your <code>config/_default/params.yaml</code> file.</p>
+<p>To render <em>inline</em> or <em>block</em> math, wrap your LaTeX math with <code>{{&lt; math &gt;}}$...${{&lt; /math &gt;}}</code> or <code>{{&lt; math &gt;}}$$...$${{&lt; /math &gt;}}</code>, respectively.</p>
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500" 
+     data-callout="note" 
+     data-callout-metadata="">
+  <span class="callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300">
+    <svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125"/></svg>
+  </span>
+  <div class="callout-content dark:text-neutral-300">
+    <div class="callout-title font-semibold mb-1">Note</div>
+    <div class="callout-body"><p>We wrap the LaTeX math in the Hugo Blox <em>math</em> shortcode to prevent Hugo rendering our math as Markdown. This callout now uses the standard Markdown alert syntax!</p></div>
+  </div>
+</div>
+
+<p>Example <strong>math block</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="nb">{{</span>&lt; math &gt;<span class="nb">}}</span>
+</span></span><span class="line"><span class="cl"><span class="sb">$$</span><span class="nb">
+</span></span></span><span class="line"><span class="cl"><span class="nv">\gamma</span><span class="nb">_{n} </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="nb">{ </span><span class="nv">\left</span><span class="nb"> | </span><span class="nv">\left</span><span class="nb"> </span><span class="o">(</span><span class="nv">\mathbf</span><span class="nb"> x_{n} </span><span class="o">-</span><span class="nb"> </span><span class="nv">\mathbf</span><span class="nb"> x_{n</span><span class="o">-</span><span class="m">1</span><span class="nb">} </span><span class="nv">\right</span><span class="nb"> </span><span class="o">)</span><span class="nb">^T </span><span class="nv">\left</span><span class="nb"> </span><span class="o">[</span><span class="nv">\nabla</span><span class="nb"> F </span><span class="o">(</span><span class="nv">\mathbf</span><span class="nb"> x_{n}</span><span class="o">)</span><span class="nb"> </span><span class="o">-</span><span class="nb"> </span><span class="nv">\nabla</span><span class="nb"> F </span><span class="o">(</span><span class="nv">\mathbf</span><span class="nb"> x_{n</span><span class="o">-</span><span class="m">1</span><span class="nb">}</span><span class="o">)</span><span class="nb"> </span><span class="nv">\right</span><span class="nb"> </span><span class="o">]</span><span class="nb"> </span><span class="nv">\right</span><span class="nb"> |}{</span><span class="nv">\left</span><span class="nb"> </span><span class="nv">\|\nabla</span><span class="nb"> F</span><span class="o">(</span><span class="nv">\mathbf</span><span class="nb">{x}_{n}</span><span class="o">)</span><span class="nb"> </span><span class="o">-</span><span class="nb"> </span><span class="nv">\nabla</span><span class="nb"> F</span><span class="o">(</span><span class="nv">\mathbf</span><span class="nb">{x}_{n</span><span class="o">-</span><span class="m">1</span><span class="nb">}</span><span class="o">)</span><span class="nb"> </span><span class="nv">\right</span><span class="nb"> </span><span class="nv">\|</span><span class="nb">^</span><span class="m">2</span><span class="nb">}
+</span></span></span><span class="line"><span class="cl"><span class="s">$$</span>
+</span></span><span class="line"><span class="cl"><span class="nb">{{</span>&lt; /math &gt;<span class="nb">}}</span>
+</span></span></code></pre></div><p>renders as</p>
+
+$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
+
+<p>Example <strong>inline math</strong> <code>{{&lt; math &gt;}}$\nabla F(\mathbf{x}_{n})${{&lt; /math &gt;}}</code> renders as $\nabla F(\mathbf{x}_{n})$
+.</p>
+<p>Example <strong>multi-line math</strong> using the math linebreak (<code>\\</code>):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="nb">{{</span>&lt; math &gt;<span class="nb">}}</span>
+</span></span><span class="line"><span class="cl"><span class="sb">$$</span><span class="nb">f</span><span class="o">(</span><span class="nb">k;p_{</span><span class="m">0</span><span class="nb">}^{</span><span class="o">*</span><span class="nb">}</span><span class="o">)</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\begin</span><span class="nb">{cases}p_{</span><span class="m">0</span><span class="nb">}^{</span><span class="o">*</span><span class="nb">} &amp; </span><span class="nv">\text</span><span class="nb">{if }k</span><span class="o">=</span><span class="m">1</span><span class="nb">, </span><span class="nv">\\</span><span class="nb">
+</span></span></span><span class="line"><span class="cl"><span class="m">1</span><span class="o">-</span><span class="nb">p_{</span><span class="m">0</span><span class="nb">}^{</span><span class="o">*</span><span class="nb">} &amp; </span><span class="nv">\text</span><span class="nb">{if }k</span><span class="o">=</span><span class="m">0</span><span class="nb">.</span><span class="nv">\end</span><span class="nb">{cases}</span><span class="s">$$</span>
+</span></span><span class="line"><span class="cl"><span class="nb">{{</span>&lt; /math &gt;<span class="nb">}}</span>
+</span></span></code></pre></div><p>renders as</p>
+
+
+$$
+f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
+1-p_{0}^{*} & \text{if }k=0.\end{cases}
+$$
+
+
+
+<h2 id="code">Code</h2>
+<p>HugoBlox Kit utilises Hugo&rsquo;s Markdown extension for highlighting code syntax. The code theme can be selected in the <code>config/_default/params.yaml</code> file.</p>
+<pre><code>```python
+import pandas as pd
+data = pd.read_csv(&quot;data.csv&quot;)
+data.head()
+```
+</code></pre>
+<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</span></span><span class="line"><span class="cl"><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&#34;data.csv&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</span></span></code></pre></div><h2 id="inline-images">Inline Images</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{&lt;</span><span class="w"> </span><span class="nx">icon</span><span class="w"> </span><span class="nx">name</span><span class="p">=</span><span class="s">&#34;python&#34;</span><span class="w"> </span><span class="p">&gt;}}</span><span class="w"> </span><span class="nx">Python</span><span class="w">
+</span></span></span></code></pre></div><p>renders as</p>
+<p>
+  <span class="inline-block  pr-1">
+    <svg style="height: 1em; transform: translateY(0.1em);" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="currentColor"><path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"/></svg>
+  </span> Python</p>
+<h2 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌</h2>
+
+
+        
+        <span data-pagefind-filter="type" style="display:none;">docs</span>
+        
+      </div>
+
+      
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2023-10-24T00:00:00.000Z">
+    <span>Last updated on</span>
+    Oct 24, 2023</time>
+      
+      
+  
+    
+    
+    
+      
+      
+    
+<div class="pt-1 no-prose w-full">
+  <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+  <div class="flex flex-col md:flex-row flex-nowrap justify-between gap-5 pt-2">
+    <div class="">
+      
+    </div>
+    <div class="">
+      
+        <a class="group flex text-right no-underline" href="/courses/hugo-blox/guide/formatting/button/">
+          <span class="flex flex-col">
+            <span
+              class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+            >Buttons</span
+            >
+            <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+              
+                Jan 1, 0001
+              
+            </span>
+          </span>
+          <span
+            class="mt-[-0.3rem] ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+          ><span class="ltr:inline">&rarr;</span></span>
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+
+
+      
+
+
+
+    </main>
+  </article>
+</div>
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+      
+      
+        
+        
+      
+    
+
+    <p class="powered-by text-center text-sm opacity-80 py-1">
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Kit</a>.
+      <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
+         href="https://hugo.chat?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv&amp;template_id=academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
+    </p>  
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+<div id="hb-notification-container" class="fixed top-20 right-4 z-[9999] pointer-events-none" aria-live="polite" aria-atomic="true"></div>
+
+
+    
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+    
+    
+  </body>
+</html>

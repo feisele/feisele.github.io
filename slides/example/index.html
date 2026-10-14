@@ -1,0 +1,2669 @@
+
+
+<!doctype html><html lang="en-us" dir="ltr"
+      data-wc-theme-default="dark"
+      data-hbb-relurl="/">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Example Talk: Recent Work | Florian Eisele</title>
+  
+  
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Kit 0.12.0" />
+
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+  
+  
+
+
+
+
+<meta name="author" content="Florian Eisele" />
+
+  
+  
+  
+  
+  
+  <meta name="description" content="A quick tour of recent research highlights: multimodal LLMs, efficient training, and responsible AI." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://feisele.github.io/slides/example/" />
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+  
+
+
+
+
+<style>
+   
+     
+  
+   
+  :root {
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-primary-500-rgb: 9 105 218;
+  --color-primary-500: rgb(var(--hb-primary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-50-rgb: 242 247 253;
+    --color-primary-50: rgb(var(--hb-primary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-100-rgb: 230 240 251;
+    --color-primary-100: rgb(var(--hb-primary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-200-rgb: 205 225 247;
+    --color-primary-200: rgb(var(--hb-primary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-300-rgb: 181 210 243;
+    --color-primary-300: rgb(var(--hb-primary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-400-rgb: 156 195 240;
+    --color-primary-400: rgb(var(--hb-primary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-600-rgb: 8 94 196;
+    --color-primary-600: rgb(var(--hb-primary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-700-rgb: 7 84 174;
+    --color-primary-700: rgb(var(--hb-primary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-800-rgb: 5 68 141;
+    --color-primary-800: rgb(var(--hb-primary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-900-rgb: 4 52 109;
+    --color-primary-900: rgb(var(--hb-primary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-950-rgb: 2 31 65;
+    --color-primary-950: rgb(var(--hb-primary-950-rgb));
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-secondary-500-rgb: 31 136 61;
+  --color-secondary-500: rgb(var(--hb-secondary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-50-rgb: 243 249 245;
+    --color-secondary-50: rgb(var(--hb-secondary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-100-rgb: 232 243 235;
+    --color-secondary-100: rgb(var(--hb-secondary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-200-rgb: 210 231 216;
+    --color-secondary-200: rgb(var(--hb-secondary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-300-rgb: 187 219 196;
+    --color-secondary-300: rgb(var(--hb-secondary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-400-rgb: 165 207 177;
+    --color-secondary-400: rgb(var(--hb-secondary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-600-rgb: 27 122 54;
+    --color-secondary-600: rgb(var(--hb-secondary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-700-rgb: 24 108 48;
+    --color-secondary-700: rgb(var(--hb-secondary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-800-rgb: 20 88 39;
+    --color-secondary-800: rgb(var(--hb-secondary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-900-rgb: 15 68 30;
+    --color-secondary-900: rgb(var(--hb-secondary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-950-rgb: 9 40 18;
+    --color-secondary-950: rgb(var(--hb-secondary-950-rgb));
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-gray-500-rgb: 36 41 47;
+  --color-gray-500: rgb(var(--hb-gray-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-50-rgb: 244 244 244;
+    --color-gray-50: rgb(var(--hb-gray-50-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-100-rgb: 233 233 234;
+    --color-gray-100: rgb(var(--hb-gray-100-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-200-rgb: 211 212 213;
+    --color-gray-200: rgb(var(--hb-gray-200-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-300-rgb: 189 190 192;
+    --color-gray-300: rgb(var(--hb-gray-300-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-400-rgb: 167 169 171;
+    --color-gray-400: rgb(var(--hb-gray-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-600-rgb: 32 36 42;
+    --color-gray-600: rgb(var(--hb-gray-600-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-700-rgb: 28 32 37;
+    --color-gray-700: rgb(var(--hb-gray-700-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-800-rgb: 23 26 30;
+    --color-gray-800: rgb(var(--hb-gray-800-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-900-rgb: 18 20 23;
+    --color-gray-900: rgb(var(--hb-gray-900-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-950-rgb: 10 12 14;
+    --color-gray-950: rgb(var(--hb-gray-950-rgb));
+  
+
+
+
+
+
+
+--hb-color-background: #ffffff;
+--hb-color-foreground: #24292f;
+
+
+--hb-color-header-bg: #f6f8fa;
+--hb-color-header-fg: #24292f;
+
+
+--hb-color-footer-bg: #ffffff;
+--hb-color-footer-fg: #57606a;
+
+    
+  }
+
+   
+  .dark {
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-primary-500-rgb: 88 166 255;
+  --color-primary-500: rgb(var(--hb-primary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-50-rgb: 246 250 255;
+    --color-primary-50: rgb(var(--hb-primary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-100-rgb: 238 246 255;
+    --color-primary-100: rgb(var(--hb-primary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-200-rgb: 221 237 255;
+    --color-primary-200: rgb(var(--hb-primary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-300-rgb: 204 228 255;
+    --color-primary-300: rgb(var(--hb-primary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-400-rgb: 188 219 255;
+    --color-primary-400: rgb(var(--hb-primary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-primary-600-rgb: 79 149 229;
+    --color-primary-600: rgb(var(--hb-primary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-700-rgb: 70 132 204;
+    --color-primary-700: rgb(var(--hb-primary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-800-rgb: 57 107 165;
+    --color-primary-800: rgb(var(--hb-primary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-900-rgb: 44 83 127;
+    --color-primary-900: rgb(var(--hb-primary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-primary-950-rgb: 26 49 76;
+    --color-primary-950: rgb(var(--hb-primary-950-rgb));
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-secondary-500-rgb: 35 134 54;
+  --color-secondary-500: rgb(var(--hb-secondary-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-50-rgb: 244 248 244;
+    --color-secondary-50: rgb(var(--hb-secondary-50-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-100-rgb: 233 242 234;
+    --color-secondary-100: rgb(var(--hb-secondary-100-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-200-rgb: 211 230 214;
+    --color-secondary-200: rgb(var(--hb-secondary-200-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-300-rgb: 189 218 194;
+    --color-secondary-300: rgb(var(--hb-secondary-300-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-400-rgb: 167 206 174;
+    --color-secondary-400: rgb(var(--hb-secondary-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-secondary-600-rgb: 31 120 48;
+    --color-secondary-600: rgb(var(--hb-secondary-600-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-700-rgb: 28 107 43;
+    --color-secondary-700: rgb(var(--hb-secondary-700-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-800-rgb: 22 87 35;
+    --color-secondary-800: rgb(var(--hb-secondary-800-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-900-rgb: 17 67 27;
+    --color-secondary-900: rgb(var(--hb-secondary-900-rgb));
+  
+    
+    
+    
+    
+    --hb-secondary-950-rgb: 10 40 16;
+    --color-secondary-950: rgb(var(--hb-secondary-950-rgb));
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+  
+  --hb-gray-500-rgb: 201 209 217;
+  --color-gray-500: rgb(var(--hb-gray-500-rgb));
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-50-rgb: 252 252 253;
+    --color-gray-50: rgb(var(--hb-gray-50-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-100-rgb: 249 250 251;
+    --color-gray-100: rgb(var(--hb-gray-100-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-200-rgb: 244 245 247;
+    --color-gray-200: rgb(var(--hb-gray-200-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-300-rgb: 238 241 243;
+    --color-gray-300: rgb(var(--hb-gray-300-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-400-rgb: 233 236 239;
+    --color-gray-400: rgb(var(--hb-gray-400-rgb));
+  
+
+  
+  
+  
+    
+    
+    
+    
+    --hb-gray-600-rgb: 180 188 195;
+    --color-gray-600: rgb(var(--hb-gray-600-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-700-rgb: 160 167 173;
+    --color-gray-700: rgb(var(--hb-gray-700-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-800-rgb: 130 135 141;
+    --color-gray-800: rgb(var(--hb-gray-800-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-900-rgb: 100 104 108;
+    --color-gray-900: rgb(var(--hb-gray-900-rgb));
+  
+    
+    
+    
+    
+    --hb-gray-950-rgb: 60 62 65;
+    --color-gray-950: rgb(var(--hb-gray-950-rgb));
+  
+
+
+
+
+
+
+--hb-color-background: #0d1117;
+--hb-color-foreground: #c9d1d9;
+
+
+--hb-color-header-bg: #161b22;
+--hb-color-header-fg: #f0f6fc;
+
+
+--hb-color-footer-bg: #0d1117;
+--hb-color-footer-fg: #8b949e;
+
+    
+  }
+   
+</style>
+
+
+  
+  
+
+  
+  
+  
+    
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+  
+
+  
+  
+  
+    
+      
+        <link rel="stylesheet" href="/css/_entry.fc4f3eba7070e85453efacaf7ca9501562d966c29d015a2c15f62b598b4d7008.css" integrity="sha256-/E8&#43;unBw6FRT76yvfKlQFWLZZsKdAVosFfYrWYtNcAg=" crossorigin="anonymous">
+      
+    
+  
+
+
+  
+
+  
+
+  <script src="/js/hb-head.min.e9ff67ddf77122b225756bf5a926e24420bea2586199fddcb3b1813a009f4ee5.js" integrity="sha256-6f9n3fdxIrIldWv1qSbiRCC&#43;olhhmf3cs7GBOgCfTuU=" crossorigin="anonymous"></script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+    <link rel="icon" type="image/png" href="/media/icon_hu_5b5963f9a437ef2b.png" />
+  
+  
+  
+  
+    
+      <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_ae7acf3953fcb62a.png" />
+    
+  
+
+  <link rel="canonical" href="https://feisele.github.io/slides/example/" />
+
+  
+  
+  
+
+  
+  
+  
+
+    
+    
+      
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Florian Eisele" />
+  <meta property="og:url" content="https://feisele.github.io/slides/example/" />
+  <meta property="og:title" content="Example Talk: Recent Work | Florian Eisele" />
+  <meta property="og:description" content="A quick tour of recent research highlights: multimodal LLMs, efficient training, and responsible AI." /><meta property="og:image" content="https://feisele.github.io/media/icon_hu_cd51c91342a84ed6.png" />
+    <meta property="twitter:image" content="https://feisele.github.io/media/icon_hu_cd51c91342a84ed6.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2024-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2024-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+  
+
+  
+  
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@id": "https://feisele.github.io/slides/example/",
+  "@type": "WebPage",
+  "dateModified": "2024-01-01T00:00:00Z",
+  "datePublished": "2024-01-01T00:00:00Z",
+  "description": "A quick tour of recent research highlights: multimodal LLMs, efficient training, and responsible AI.",
+  "inLanguage": "en-us",
+  "isPartOf": {
+    "@id": "https://feisele.github.io/",
+    "@type": "WebSite",
+    "name": "Florian Eisele",
+    "url": "https://feisele.github.io/"
+  },
+  "name": "Example Talk: Recent Work",
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": null
+  },
+  "url": "https://feisele.github.io/slides/example/"
+}
+</script>
+
+
+
+  <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/",
+        "name": "Florian Eisele"
+      },
+      "name": "Florian Eisele",
+      "position": 1
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/slides/",
+        "name": "Slides"
+      },
+      "name": "Slides",
+      "position": 2
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://feisele.github.io/slides/example/",
+        "name": "Example Talk: Recent Work"
+      },
+      "name": "Example Talk: Recent Work",
+      "position": 3
+    }
+  ]
+}
+    </script>
+
+
+
+
+
+
+  <title>Example Talk: Recent Work | Florian Eisele</title>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+    
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+    
+      
+    
+  
+  
+
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+    
+      
+    
+  
+  
+
+  
+  
+    
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+
+
+
+
+
+  
+    
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+        
+        
+        
+      
+    
+  
+
+  
+    
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+        
+        
+        
+      
+    
+  
+
+  
+    
+      
+      
+      
+      
+      
+        
+        
+      
+      
+      
+      
+        
+        
+        
+      
+    
+  
+
+  
+
+
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@100..900&amp;family=Source&#43;Serif&#43;4:wght@100..900&amp;family=Source&#43;Code&#43;Pro:wght@400&amp;display=swap" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  :root {
+     
+    --hb-font-heading: 'Lora', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    --hb-font-body: 'Source Serif 4', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    --hb-font-code: 'Source Code Pro', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --hb-font-nav: 'Lora', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+
+     
+    --hb-font-weight-heading: 500;
+    --hb-font-weight-body: 400;
+    --hb-font-weight-body-bold: 600;
+
+     
+    --hb-font-leading-heading: 1.2;
+    --hb-font-leading-body: 1.7;
+    --hb-font-leading-code: 1.5;
+
+     
+    --hb-font-tracking-heading: 0;
+    --hb-font-tracking-body: 0;
+    --hb-font-tracking-caps: 0.05em;
+
+     
+    --hb-font-size-base: 1rem;
+    --hb-font-size-sm: 0.875rem;
+    --hb-font-size-lg: 1.125rem;
+
+     
+    --hb-font-family-sans: 'Source Serif 4', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  }
+</style>
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+
+<style>
+  :root {
+     
+    --hb-radius: 0.25rem;
+
+     
+    --hb-spacing-base: 0.75rem;
+    --hb-spacing-section: 2.5rem;
+  }
+</style>
+
+
+  
+
+  
+  
+
+
+
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <script
+    defer
+    src="/js/hugo-blox-en.min.50bf5376bbbd2aea9b2e03e195eeee2f0afad8e84589a94b0ee493111b4be271.js"
+    integrity="sha256-UL9Tdru9KuqbLgPhle7uLwr62OhFialLDuSTERtL4nE="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  <script defer src="/js/mermaid.bundle.95ecd454be55d65f87300f40c002b39156507286068192796844fd779343bd93.js" integrity="sha256-lezUVL5V1l&#43;HMA9AwAKzkVZQcoYGgZJ5aET9d5NDvZM="></script>
+
+
+
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.19095127357ed6d29fe0a63a6b000c913a89f7f1963b765dd3715e97c9852e75.css" integrity="sha256-GQlRJzV&#43;1tKf4KY6awAMkTqJ9/GWO3Zd03Fel8mFLnU=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.e8d885505949f3a5f4abdd5dd0d53696bd1371ad26ffbf4f310dcd77c8cdae89.js" integrity="sha256-6NiFUFlJ86X0q91d0NU2lr0Tca0m/79PMQ3Nd8jNrok="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.7bdcf3f3f669a04734c54d2fe7c91a2d07b44e4ec8f1ea72384893db11a740eb.js" integrity="sha256-e9zz8/ZpoEc0xU0v58kaLQe0Tk7I8epyOEiT2xGnQOs="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+        
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+        
+      
+    
+  
+
+
+
+
+</head>
+
+  
+</head>
+
+<body class="bg-[var(--color-background)] text-[var(--color-foreground)] page-wrapper" id="top">
+  
+  <div id="page-bg"></div>
+  <div class="page-header sticky top-0 z-30">
+    
+    
+      
+        
+<header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-start">
+    <div class="order-0 h-full">
+      
+      <a class="navbar-brand" href="/" title="Florian Eisele">
+        
+        
+        
+        
+        
+        Florian Eisele
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-[var(--hb-color-header-fg)] lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-start
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/"
+        >About</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#preprints"
+        >Preprints</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#publications"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#theses"
+        >Theses &amp; Notes</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#code"
+        >Code</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#misc"
+        >Misc</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#contact"
+        >Contact</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+
+      
+    
+  </div>
+  <div class="page-body my-10">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="deck-landing">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+  
+
+  <div class="container mx-auto px-4 sm:px-6 max-w-5xl py-12" x-data="{ copied: false, showCitation: false, copyText: &#34;Copy Link&#34;, citationCopied: false, citationCopyText: &#34;Copy citation&#34;, citationValue: &#34;&#34; }">
+    
+    
+    <a href="/slides/" class="inline-flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary-600 dark:hover:text-primary-400 mb-6 transition-colors">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+      </svg>
+      Back to Slides
+    </a>
+
+    
+    <div class="bg-white dark:bg-zinc-900 rounded-2xl shadow-lg ring-1 ring-zinc-900/5 dark:ring-white/10 overflow-hidden mb-8">
+      
+      
+      <div class="relative px-8 py-12 bg-gradient-to-br from-primary-600 to-primary-800 dark:from-primary-700 dark:to-primary-900 text-white">
+        
+        
+
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">Example Talk: Recent Work</h1>
+        
+        
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-white/80">
+          
+          
+          
+
+          
+
+          
+          
+          <div class="flex items-center gap-1.5">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+            January 2024
+          </div>
+
+          <div class="flex items-center gap-1.5">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            28 slides
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="px-8 py-8">
+        
+        
+        <div class="mb-6">
+          <h2 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100 mb-2">Abstract</h2>
+          <p class="text-zinc-600 dark:text-zinc-400 leading-relaxed">A quick tour of recent research highlights: multimodal LLMs, efficient training, and responsible AI.</p>
+        </div>
+        
+
+        
+        
+
+        
+        
+
+        
+        <div class="flex flex-wrap gap-3 pt-6 border-t border-zinc-100 dark:border-zinc-800 mb-6">
+          
+          
+          <a href="/present/slides/example/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary-600 hover:bg-primary-700 text-white font-semibold transition-colors shadow-lg shadow-primary-500/25 cursor-pointer">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+            Present (fullscreen)
+          </a>
+          
+
+          
+          <button 
+            @click="navigator.clipboard.writeText('https://feisele.github.io/slides/example/'); copied = true; copyText = &#34;Copied&#34;; setTimeout(() => { copied = false; copyText = &#34;Copy Link&#34;; }, 2000)"
+            class="inline-flex items-center gap-2 px-4 py-3 rounded-lg bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" x-show="!copied">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+            </svg>
+            <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" x-show="copied" x-cloak>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            <span x-text="copyText">Copy Link</span>
+          </button>
+
+          
+          
+
+          
+          
+          <a href="/present/slides/example/?print-pdf" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-3 rounded-lg bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors" title="Opens in print mode - use browser Print &gt; Save as PDF">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            Export PDF (print)
+          </a>
+          
+        </div>
+
+        
+        
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+  </div>
+  <div class="page-footer">
+    <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+      
+      
+        
+        
+      
+    
+
+    <p class="powered-by text-center text-sm opacity-80 py-1">
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com/templates/academic-cv?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv&start=1" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Kit</a>.
+      <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
+         href="https://hugo.chat?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv&amp;template_id=academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
+    </p>  
+
+</footer>
+
+  </div>
+  
+  
+
+
+<div id="hb-notification-container" class="fixed top-20 right-4 z-[9999] pointer-events-none" aria-live="polite" aria-atomic="true"></div>
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>

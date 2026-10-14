@@ -5,34 +5,34 @@
     <link>https://feisele.github.io/publication_types/3/</link>
       <atom:link href="https://feisele.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://feisele.github.io/media/icon_hu7729264130191091259.png</url>
+      <url>https://feisele.github.io/media/icon_hu_cd51c91342a84ed6.png</url>
       <title>3</title>
       <link>https://feisele.github.io/publication_types/3/</link>
     </image>
     
     <item>
       <title>Algorithmische Behandlung $p$-adischer ganzzahliger Gruppenringe</title>
-      <link>https://feisele.github.io/publication/diplom/</link>
+      <link>https://feisele.github.io/publications/diplom/</link>
       <pubDate>Wed, 01 Oct 2008 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/diplom/</guid>
+      <guid>https://feisele.github.io/publications/diplom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A counterexample to a conjecture on Cartan determinants of monoid algebras</title>
-      <link>https://feisele.github.io/publication/monoid_counerexample/</link>
+      <link>https://feisele.github.io/publications/monoid_counerexample/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/monoid_counerexample/</guid>
+      <guid>https://feisele.github.io/publications/monoid_counerexample/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Group rings over the $p$-adic integers</title>
-      <link>https://feisele.github.io/publication/dissertation/</link>
+      <link>https://feisele.github.io/publications/dissertation/</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
-      <guid>https://feisele.github.io/publication/dissertation/</guid>
+      <guid>https://feisele.github.io/publications/dissertation/</guid>
       <description></description>
     </item>
     
